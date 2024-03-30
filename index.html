@@ -55,12 +55,49 @@
         border: none;
     }
 
-    footer>div>img {
-        position: absolute;
-        left: 10%;
-        height: 125px;
+    #minipic {
+        position: relative;
+        left: 30%;
+        top: 125px;
+        height: 115px;
         width: 125px;
     }
+
+    #lets-work-together {
+        position: relative;
+        font-family: 'Outfit semiBold', serif;
+        font-size: 300%;
+        left: 40%;
+        color: #EEEEEE;
+    }
+
+    .button {
+        position: relative;
+        background-color: #7FC7D9;
+        color: #17181c;
+        border-radius: 20px;
+        width: 15%;
+        height: 40px;
+        border: none;
+        font-family: 'Outfit semiBold', serif;
+        font-size: 150%;
+    }
+
+    #getInTouchButton {
+        position: relative;
+        top: 50%;
+        bottom: 30px;
+        left: 45%;
+        right: 0;
+
+    }
+
+    span {
+        position: relative;
+        top: -90px;
+    }
+
+
 
 
 
@@ -169,19 +206,23 @@
 
 <footer>
 
+
     <hr>
 
-    <div>
-        <img src="assets/Mini Profile Pic.png" title="shenan vindinu mini profile pic"
+    <span>
+        <img id="minipic" src="assets/Mini Profile Pic.png" title="shenan vindinu mini profile pic"
              alt="shenan-mini-profile-pic"/>
-        <h3 id="Let's-work-together!">Let's Work Together!</h3>
-    </div>
+    <h3 id="lets-work-together">Let's Work Together!</h3>
+
 
     <a href="pages/contact_page.html">
-        <button>
-            <h4 id="Get-in-touch">Get in touch</h4>
+        <button id="getInTouchButton" class="button">
+            Get In Touch
         </button>
     </a>
+    </span>
+
+
 
 
     <div>
