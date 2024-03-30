@@ -14,6 +14,7 @@
 
     body {
         background-color: #17181c;
+        overflow-x: hidden;
     }
 
     #shenanVindinu {
@@ -300,7 +301,7 @@
         font-size: 14em;
         color: #7FC7D9;
         font-family: "Outfit semiBold", sans-serif;
-        margin: -45px;
+        margin: -50px;
         position: relative;
         left: 5%;
     }
@@ -318,6 +319,14 @@
         position: absolute;
     }
 
+    #sideLine {
+        position: relative;
+        left: 99%;
+    }
+
+    section>main>img {
+        position: absolute;
+    }
 
 
 
@@ -355,15 +364,15 @@
         <h1 id="web-designer2">Web Designer</h1>
         <h1 id="web-designer3">Web Designer</h1>
 
-        <div>
-            <img src="assets/Shenan_Vindinu_4 cropped.png" title="shenan vindinu profile pic"
-                 alt="shenan-vindinu-profile-pic" height="250" width="300"/>
-        </div>
+
+        <img src="assets/Shenan_Vindinu_4 cropped.png" title="shenan vindinu profile pic"
+             alt="shenan-vindinu-profile-pic" height="250" width="300"/>
+
 
     </main>
 
     <div>
-        <img src="assets/Side Line Home.png" title="home side line" alt="home-page-side line"/>
+        <img id="sideLine" src="assets/Side Line Home.png" title="home side line" alt="home-page-side line"/>
     </div>
 
 </section>
