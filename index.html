@@ -69,7 +69,7 @@
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 1850px;
+        width: 1800px;
     }
 
     #footerBottomSection {
@@ -111,10 +111,26 @@
     }
 
     #miniPicture  {
-        width: 150px;
-        height: 150px;
-        padding-left: 25vw;
-        padding-top: 30px;
+        width: 200px;
+        height: 200px;
+        padding-left: 16vw;
+        padding-top: 7vh;
+    }
+
+    #lets-work-together {
+        font-family: "Outfit semiBold", sans-serif;
+        font-size: 6.5em;
+        color: #EEEEEE;
+        padding-left: 35px;
+
+    }
+
+    #lets-work-together>span  {
+        color: #7FC7D9;
+    }
+
+    #lets_work_together_container {
+        display: flex;
     }
 
 
@@ -233,18 +249,19 @@
 
     <hr>
 
-    <span>
+    <div id="lets_work_together_container">
         <img id="miniPicture" src="assets/Mini Profile Pic.png" title="shenan vindinu mini profile pic"
              alt="shenan-mini-profile-pic"/>
-    <h3 id="lets-work-together">Let's Work <span>together!</span></h3>
+        <h3 id="lets-work-together">Let's Work <span>together!</span></h3>
+    </div>
 
-
-    <a id="getInTouchButton" href="pages/contact_page.html">
-        <button id="getInTouchButtonCus" class="button">
-            Get In Touch
-        </button>
-    </a>
-    </span>
+    <div id="getInTouchButton">
+        <a href="pages/contact_page.html">
+            <button id="getInTouchButtonCus" class="button">
+                Get In Touch
+            </button>
+        </a>
+    </div>
 
 
     <img id="FooterArrow" src="assets/Footer Arrow.png" title="mail me arrow"
