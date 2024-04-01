@@ -221,6 +221,38 @@
         color: #7FC7D9;
     }
 
+    #recentWorkHr {
+        background-color: #EEEEEE;
+        height: 15px;
+        width: 1800px;
+
+    }
+
+    #recentWorkContainer {
+        display: block;
+        width: 1750px;
+        margin-left: 4.1vw;
+    }
+
+    #recent-work {
+        color: #7FC7D9;
+        font-family: "Outfit regular", sans-serif;
+        font-size: 1.5em;
+        margin-top: 300px;
+    }
+
+    #recentWorkContainer>hr {
+        border: 2px solid #7FC7D9;
+        margin-top: 60px;
+    }
+
+    nav>div>a {
+        color: #EEEEEE;
+        text-decoration: none;
+        font-family: "Outfit Medium", sans-serif;
+        font-size: 15em;
+    }
+
 
 
 
@@ -313,22 +345,22 @@
         <br>
     </div>
 
-
-    <hr>
-
 </article>
 
 <nav id="projects">
 
-    <h6 id="recent-work">Recent Work</h6>
+    <hr id="recentWorkHr">
 
-    <div>
+
+    <div id="recentWorkContainer">
+
+        <div id="recent-work">Recent Work</div>
 
         <hr>
 
         <a href="">Fabrica</a>
         <img src="assets/red underline homepage fabrica.png" title="red underline 1"
-             alt="red-underline-1" height="9" width="181"/>
+             alt="red-underline-1"/>
 
         <hr>
 
@@ -344,13 +376,15 @@
 
         <hr>
 
+        <a href="pages/work_page.html">
+            <button>
+                <h4 id="more-work">more work</h4>
+            </button>
+        </a>
+
     </div>
 
-    <a href="pages/work_page.html">
-        <button>
-            <h4 id="more-work">more work</h4>
-        </button>
-    </a>
+
 
 
 </nav>
