@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media (max-width: 1540px) {
     body {
         background-color: #17181C;
         /*overflow-x: hidden;*/
@@ -180,15 +180,19 @@
 
     #webDesignerContainer {
         display: flex;
-        margin-left: 3vw;
-        margin-top: 16px;
+        margin-left: 6vw;
+        margin-top: 1px;
     }
 
     #sideLine {
         margin-left: 0;
         position: relative;
-        left: 50px;
-        margin-top: 20px;
+        left: 100px;
+        margin-top: 10px;
+    }
+
+    #sideLine>img {
+        height: 650px;
     }
 
     #profileMainPic {
@@ -219,7 +223,7 @@
     #recentWorkContainer {
         display: block;
         width: 1330px;
-        margin-left: 4.1vw;
+        margin-left: 7vw;
     }
 
     #recent-work {
