@@ -256,4 +256,10 @@
         margin-top: 180px;
         margin-bottom: 350px;
     }
+
+    #profileMainPicCus {
+        /*height="800px" width="950px"*/
+        height: 800px;
+        width: 950px;
+    }
 }
