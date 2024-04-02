@@ -262,4 +262,9 @@
         height: 800px;
         width: 950px;
     }
+
+    .brIntro {
+        display: none;
+    }
+
 }

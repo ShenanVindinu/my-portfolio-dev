@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     body {
         background-color: #17181C;
         overflow-x: hidden;
@@ -20,8 +20,8 @@
     #hamburgerButton {
         border: none;
         background-color: #17181c;
-        width: 55px;
-        height: 55px;
+        width: 35px;
+        height: 35px;
         padding-top: 5px;
         padding-left: 40px;
     }
@@ -32,9 +32,7 @@
     }
 
     #headerLineSection {
-        padding-right: 50px;
-        position: relative;
-        bottom: 10px;
+        visibility: hidden;
     }
 
     header>div>img {
@@ -60,7 +58,7 @@
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 700px;
+        width: 300px;
     }
 
     #footerBottomSection {
@@ -70,7 +68,7 @@
 
     #socialContainer>ul {
         list-style: none;
-        display: flex;
+        display: none;
     }
 
     #socialContainer>ul>li {
@@ -81,6 +79,7 @@
 
     #socialText {
         padding-left: 40px;
+        display: none;
     }
 
     .versionText, #socialText {
@@ -98,22 +97,24 @@
     }
 
     #versionTextContainer {
-        padding-left: 35px;
+        padding-left: 130px;
+        text-align: center;
     }
 
     #miniPicture  {
         width: 200px;
         height: 200px;
-        padding-left: 7vw;
+        padding-left: 24vw;
         padding-top: 7vh;
     }
 
     #lets-work-together {
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 5em;
+        font-size: 4em;
         color: #EEEEEE;
-        padding-left: 35px;
+        padding-left: 15px;
         margin-bottom: 0;
+        text-align: center;
 
     }
 
@@ -122,11 +123,11 @@
     }
 
     #lets_work_together_container {
-        display: flex;
+        display: block;
     }
 
     #getInTouchButtonContainer {
-        padding-left: 41vw;
+        padding-left: 30vw;
         padding-top: 50px;
     }
 
@@ -162,7 +163,7 @@
     }
 
     #FooterEmailContainer {
-        padding-left: 31vw;
+        padding-left: 10vw;
         padding-top: 10vw;
         padding-bottom: 100px;
     }
@@ -171,7 +172,7 @@
     .web-designer {
         color: #EEEEEE;
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 7em;
+        font-size: 10em;
         margin: 1px;
     }
 
@@ -179,10 +180,14 @@
         color: #7FC7D9;
     }
 
+    .web-designer>span {
+        display: none;
+    }
+
     #webDesignerContainer {
         display: flex;
-        margin-left: 3vw;
-        margin-top: 70px;
+        margin-left: 1vw;
+        margin-top: 20px;
     }
 
     #sideLine {
@@ -193,22 +198,24 @@
     }
 
     #sideLine>img {
-        height: 450px;
+        display: none;
     }
 
     #profileMainPic {
         position: absolute;
-        padding-left: 0.4vw;
-        top: 55px;
+        right: -55px;
+        top: 180px;
     }
 
     #intro {
         color: #EEEEEE;
         font-family: "Outfit regular", sans-serif;
-        font-size: 3em;
-        margin-left: 50px;
-        margin-top: 150px;
+        font-size: 2em;
+        margin-left: 30px;
+        margin-top: 95px;
     }
+
+
 
     #intro>span {
         color: #7FC7D9;
@@ -217,21 +224,21 @@
     #recentWorkHr {
         background-color: #EEEEEE;
         height: 15px;
-        width: 700px;
+        width: 320px;
 
     }
 
     #recentWorkContainer {
         display: block;
-        width: 700px;
-        margin-left: 4.1vw;
+        width: 300px;
+        margin-left: 27px;
     }
 
     #recent-work {
         color: #7FC7D9;
         font-family: "Outfit regular", sans-serif;
         font-size: 1.5em;
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     #recentWorkContainer>hr {
@@ -243,12 +250,12 @@
         color: #EEEEEE;
         text-decoration: none;
         font-family: "Outfit Medium", sans-serif;
-        font-size: 10em;
+        font-size: 4em;
     }
 
     #redUnderline {
         display: block;
-        width: 650px;
+        width: 300px;
     }
 
     #moreWorkButtonCus {
@@ -262,19 +269,19 @@
     }
 
     #moreWorkButtonContainer {
-        margin-left: 30vw;
-        margin-top: 180px;
+        margin-left: 8vw;
+        margin-top: 55px;
         margin-bottom: 150px;
     }
 
     #profileMainPicCus {
         /*height="800px" width="950px"*/
-        height: 600px;
-        width: 750px;
+        height: 450px;
+        width: 500px;
     }
 
-    #brIntro {
-        display: none;
+    .brIntro {
+        display: block;
     }
 
 }
