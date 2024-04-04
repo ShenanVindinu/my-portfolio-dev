@@ -1,0 +1,259 @@
+@media (max-width: 768px) {
+
+    body {
+        background-color: #17181C;
+        overflow-x: hidden;
+    }
+
+    footer {
+        display: block;
+        clear: both;
+    }
+
+    footer>hr  {
+        background-color: #EEEEEE;
+        height: 15px;
+        width: 700px;
+    }
+
+    #footerBottomSection {
+        display: flex;
+        align-items: end;
+    }
+
+    #socialContainer>ul {
+        list-style: none;
+        display: flex;
+    }
+
+    #socialContainer>ul>li {
+        margin-right: 50px;
+        font-family: "Outfit Thin", sans-serif;
+
+    }
+
+    #socialText {
+        padding-left: 40px;
+    }
+
+    .versionText, #socialText {
+        font-family: "Outfit Thin", sans-serif;
+        color: #EEEEEE;
+    }
+
+    #socialContainer>ul>li>a  {
+        color: #EEEEEE;
+        text-decoration: none;
+    }
+
+    #socialContainer {
+        padding-left: 35vw;
+    }
+
+    #versionTextContainer {
+        padding-left: 35px;
+    }
+
+    #miniPicture  {
+        width: 200px;
+        height: 200px;
+        padding-left: 7vw;
+        padding-top: 7vh;
+    }
+
+    #lets-work-together {
+        font-family: "Outfit semiBold", sans-serif;
+        font-size: 5em;
+        color: #EEEEEE;
+        padding-left: 35px;
+        margin-bottom: 0;
+
+    }
+
+    #lets-work-together>span  {
+        color: #7FC7D9;
+    }
+
+    #lets_work_together_container {
+        display: flex;
+    }
+
+    #getInTouchButtonContainer {
+        padding-left: 41vw;
+        padding-top: 50px;
+    }
+
+    #getInTouchButtonCus {
+        background-color: #7FC7D9;
+        border: none;
+        border-radius: 55px;
+        width: 150px;
+        height: 50px;
+        font-family: "Outfit semiBold", sans-serif;
+        font-size: 1.2em;
+        color: #17181C;
+    }
+
+    #FooterArrow {
+        width: 100px;
+        padding-left: 56vw;
+        padding-top: 30px;
+    }
+
+    #FooterEmailCus {
+        font-family: "Outfit semiBold",sans-serif;
+        color: #EEEEEE;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+
+    #footerEmail_hr {
+        height: 5px;
+        width: 300px;
+        background-color: #7FC7D9;
+        margin-left: 0;
+    }
+
+    #FooterEmailContainer {
+        padding-left: 31vw;
+        padding-top: 10vw;
+        padding-bottom: 100px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header>div>a {
+        text-decoration: none;
+        font-family: "Outfit semiBold", sans-serif;
+        color: #EEEEEE;
+        font-size: 3em;
+    }
+
+    header>div>a>span {
+        color: #7FC7D9;
+    }
+
+    header>div {
+        margin-left: 65vw;
+        margin-top: 50px;
+    }
+
+    header>nav>ul {
+        list-style: none;
+        color: #EEEEEE;
+        font-family: "Outfit Medium", sans-serif;
+        font-size: 2em;
+        display: none;
+    }
+
+    header>nav>ul>li {
+        margin-right: 75px;
+    }
+
+    header>nav {
+        margin-right: 50px;
+    }
+
+    #hamburgerButton {
+        border: none;
+        background-color: #17181c;
+        width: 55px;
+        height: 55px;
+        padding-top: 30px;
+        padding-left: 55px;
+        display: flex;
+    }
+
+    header>button>img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #enan {
+        display: none;
+    }
+
+    main {
+        color: #EEEEEE;
+        font-family: "Outfit regular", sans-serif;
+        font-size: 6em;
+        margin-top: 200px;
+        margin-left: 70px;
+        margin-bottom: 250px;
+    }
+
+    main>span {
+        color: #7FC7D9;
+    }
+
+    /*recentwork*/
+    #recentWorkContainer {
+        display: block;
+        width: 650px;
+        margin-left: 7vw;
+        margin-bottom: 200px;
+    }
+
+    #recent-work {
+        color: #7FC7D9;
+        font-family: "Outfit regular", sans-serif;
+        font-size: 1.5em;
+        margin-top: 300px;
+    }
+
+    #recentWorkContainer>hr {
+        border: 2px solid #7FC7D9;
+        margin-top: 60px;
+    }
+
+    nav>div>a {
+        color: #EEEEEE;
+        text-decoration: none;
+        font-family: "Outfit Medium", sans-serif;
+        font-size: 8em;
+    }
+
+    #myAssignmentsHeading {
+        color: #EEEEEE;
+        font-family: "Outfit regular", sans-serif;
+        font-size: 2em;
+        margin-left: 70px;
+    }
+
+    div>div>span {
+        color: #7FC7D9;
+    }
+
+    div>div>a {
+        color: #EEEEEE;
+        text-decoration: none;
+        font-family: "Outfit semiBold", sans-serif;
+        font-size: 5.5em;
+        margin: 80px;
+    }
+
+    div>div>img {
+        margin-left: 80px;
+        margin-top: 20px;
+        width: 500px;
+    }
+
+    div>div>hr {
+        border: 2px solid #7FC7D9;
+        margin-top: 60px;
+        width: 650px;
+    }
+
+    #AssignmentContainer {
+        margin-bottom: 300px;
+    }
+
+    #recentWorkContainer>img {
+        width: 500px;
+    }
+
+}

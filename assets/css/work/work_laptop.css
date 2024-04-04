@@ -162,6 +162,14 @@ header>nav {
     margin-right: 50px;
 }
 
+#hamburgerButton {
+    display: none;
+}
+
+#enan {
+    color: #EEEEEE;
+}
+
 /*heading*/
 main {
     color: #EEEEEE;
