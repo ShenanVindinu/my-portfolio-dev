@@ -191,6 +191,7 @@
         font-size: 6em;
         margin-top: 100px;
         margin-left: 150px;
+        margin-bottom: 200px;
     }
 
     main>div>hr {
@@ -205,6 +206,63 @@
         margin-top: 50px;
         margin-right: 150px;
     }
+
+    section>div {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+    }
+
+    section>div>div {
+        margin-top: -70px;
+    }
+
+    section>div>div>h1 {
+        color: #EEEEEE;
+        font-family: "Outfit Thin", sans-serif;
+        font-size: 4em;
+        margin-bottom: 200px;
+        margin-left: 145px;
+    }
+
+    section>div>div>h1>span {
+        color: #F24822;
+    }
+
+    section>div>div>h4 {
+        color: #EEEEEE;
+        font-family: "Outfit Thin", sans-serif;
+        font-size: 3em;
+        margin: 0;
+    }
+
+    section>div>div>hr {
+        height: 5px;
+        background-color: #F24822;
+        border: none;
+    }
+
+    section>div>div>div {
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+
+    section>div>div>div>button {
+        background-color: #7FC7D9;
+        border: none;
+        width: 250px;
+        height: 70px;
+        border-radius: 50px;
+        color: #17181C;
+        font-family: "Outfit semiBold", sans-serif;
+        font-size: 2em;
+    }
+
+    section>div>div>img {
+        margin-top: 80px;
+        margin-left: 230px;
+    }
+
 
 </style>
 
@@ -250,18 +308,30 @@
 
 <section>
 
-    <img src="../assets/images/white%20v%20line%201.png" title="v line 1" alt="v-line-1" height="740" width="49"/>
-    <img src="../assets/images/white%20v%20line%202.png" title="v line 2" alt="v-line-2" height="740" width="35"/>
+    <div>
+        <img src="../assets/images/white%20v%20line%201.png" title="v line 1" alt="v-line-1"/>
 
-    <h1>Email me,</h1>
-    <h1>Shenanvindinu@gmail.com</h1>
-    <hr>
+        <div>
+            <h1>Email me<span>,</span></h1>
 
-    <button onclick="window.location.href='mailto: shenanvindinu@gmail.com';">
-        <h4 id="send-mail">Send mail</h4>
-    </button>
+            <h4>Shenanvindinu@gmail.com</h4>
+            <hr>
 
-    <img src="../assets/images/White_arrow.png" title="arrow white" alt="arrow-white" height="168" width="88"/>
+            <div>
+                <button onclick="window.location.href='mailto: shenanvindinu@gmail.com';">
+                    Send mail
+                </button>
+            </div>
+
+
+            <img src="../assets/images/White_arrow.png" title="arrow white" alt="arrow-white" height="168" width="88"/>
+        </div>
+
+
+        <img src="../assets/images/white%20v%20line%202.png" title="v line 2" alt="v-line-2"/>
+    </div>
+
+
 
 </section>
 
