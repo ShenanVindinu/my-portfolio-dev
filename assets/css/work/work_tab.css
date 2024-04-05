@@ -5,6 +5,10 @@
         overflow-x: hidden;
     }
 
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
     footer {
         display: block;
         clear: both;
