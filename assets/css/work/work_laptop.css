@@ -129,6 +129,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 header>div>a {
@@ -148,10 +149,15 @@ header>div {
 
 header>nav>ul {
     list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
     color: #EEEEEE;
     font-family: "Outfit Medium", sans-serif;
     font-size: 2em;
-    display: flex;
 }
 
 header>nav>ul>li {
