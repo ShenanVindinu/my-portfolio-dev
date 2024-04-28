@@ -1,5 +1,6 @@
 body {
-    background-color: #17181c;
+    background-color: #17181C;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -30,7 +31,7 @@ header>button>img {
 }
 
 #headerLineSection {
-    padding-right: 200px;
+    padding-right: 150px;
     position: relative;
     bottom: 10px;
 }
@@ -51,19 +52,18 @@ header>div>img {
 }
 
 footer {
-    display: block;
-    clear: both;
+    width: 90vw;
+    margin: auto;
 }
 
 footer>hr  {
     background-color: #EEEEEE;
     height: 15px;
-    width: 1800px;
 }
 
 #footerBottomSection {
     display: flex;
-    align-items: end;
+    justify-content: space-between;
 }
 
 #socialContainer>ul {
@@ -91,10 +91,6 @@ footer>hr  {
     text-decoration: none;
 }
 
-#socialContainer {
-    padding-left: 70vw;
-}
-
 #versionTextContainer {
     padding-left: 35px;
 }
@@ -102,8 +98,10 @@ footer>hr  {
 #miniPicture  {
     width: 200px;
     height: 200px;
-    padding-left: 16vw;
-    padding-top: 7vh;
+    /*padding-left: 7vw;*/
+    /*padding-top: 7vh;*/
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 #lets-work-together {
@@ -111,7 +109,6 @@ footer>hr  {
     font-size: 6.5em;
     color: #EEEEEE;
     padding-left: 35px;
-    margin-bottom: 0;
 
 }
 
@@ -121,11 +118,13 @@ footer>hr  {
 
 #lets_work_together_container {
     display: flex;
+    justify-content: center;
+    height: 35vh;
 }
 
 #getInTouchButtonContainer {
-    padding-left: 41vw;
-    padding-top: 0;
+    margin: auto;
+    width: 300px;
 }
 
 #getInTouchButtonCus {
@@ -140,8 +139,8 @@ footer>hr  {
 }
 
 #FooterArrow {
-    width: 300px;
-    padding-left: 53vw;
+    width: 250px;
+    padding-left: 56vw;
     padding-top: 30px;
 }
 
@@ -168,8 +167,8 @@ footer>hr  {
 .web-designer {
     color: #EEEEEE;
     font-family: "Outfit semiBold", sans-serif;
-    font-size: 16em;
-    margin: -60px;
+    font-size: 13em;
+    margin: 1px;
 }
 
 .web-designer:nth-child(2) {
@@ -177,16 +176,34 @@ footer>hr  {
 }
 
 #webDesignerContainer {
-    display: flex;
-    margin-left: 9vw;
-    margin-top: 16px;
+    margin-left: auto;
+    margin-right: 3.5%;
+    width: 90vw;
 }
 
 #sideLine {
-    margin-left: 0;
-    position: relative;
-    left: 210px;
     margin-top: 20px;
+}
+
+section>main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sideLine>img {
+    height: 650px;
+    display: flex;
+    /*justify-content: flex-end;*/
+}
+
+#profileMainPicCus {
+    /*height="800px" width="950px"*/
+    height: 800px;
+    width: 950px;
+}
+
+.brIntro {
+    display: none;
 }
 
 #profileMainPic {
@@ -198,7 +215,7 @@ footer>hr  {
 #intro {
     color: #EEEEEE;
     font-family: "Outfit regular", sans-serif;
-    font-size: 7em;
+    font-size: 5em;
     margin-left: 120px;
     margin-top: 300px;
 }
@@ -210,14 +227,14 @@ footer>hr  {
 #recentWorkHr {
     background-color: #EEEEEE;
     height: 15px;
-    width: 1800px;
+    width: 90vw;
 
 }
 
 #recentWorkContainer {
     display: block;
-    width: 1750px;
-    margin-left: 4.1vw;
+    width: 90vw;
+    margin: auto;
 }
 
 #recent-work {
@@ -241,26 +258,284 @@ nav>div>a {
 
 #moreWorkButtonCus {
     background-color: #7FC7D9;
-    width: 350px;
-    height: 100px;
+    width: 250px;
+    height: 80px;
     border: none;
     border-radius: 45px;
     font-family: "Outfit Medium", sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 #moreWorkButtonContainer {
-    margin-left: 36vw;
-    margin-top: 180px;
-    margin-bottom: 350px;
+    width: 250px;
+    margin: 180px auto 350px;
 }
 
-#profileMainPicCus {
-    /*height="800px" width="950px"*/
-    height: 800px;
-    width: 950px;
-}
 
-.brIntro {
-    display: none;
-}
+
+/*body {*/
+/*    background-color: #17181c;*/
+/*}*/
+
+/*body::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+
+/*!*header*!*/
+
+/*header {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    margin: 0;*/
+/*}*/
+
+/*#hamburgerButton {*/
+/*    border: none;*/
+/*    background-color: #17181c;*/
+/*    width: 55px;*/
+/*    height: 55px;*/
+/*    padding-top: 5px;*/
+/*    padding-left: 40px;*/
+/*}*/
+
+/*header>button>img {*/
+/*    width: 55px;*/
+/*    height: 55px;*/
+/*}*/
+
+/*#headerLineSection {*/
+/*    padding-right: 200px;*/
+/*    position: relative;*/
+/*    bottom: 10px;*/
+/*}*/
+
+/*header>div>img {*/
+/*    width: 130px;*/
+/*    height: 40px;*/
+/*    color: #D9D9D9;*/
+/*}*/
+
+/*#shenanVindinu {*/
+/*    font-family: "Outfit regular", sans-serif;*/
+/*    color: #EEEEEE;*/
+/*    font-size: 1.5em;*/
+/*    padding: 20px 0 0 0;*/
+/*    position: relative;*/
+/*    right: 20px;*/
+/*}*/
+
+/*footer {*/
+/*    display: block;*/
+/*    clear: both;*/
+/*}*/
+
+/*footer>hr  {*/
+/*    background-color: #EEEEEE;*/
+/*    height: 15px;*/
+/*    width: 1800px;*/
+/*}*/
+
+/*#footerBottomSection {*/
+/*    display: flex;*/
+/*    align-items: end;*/
+/*}*/
+
+/*#socialContainer>ul {*/
+/*    list-style: none;*/
+/*    display: flex;*/
+/*}*/
+
+/*#socialContainer>ul>li {*/
+/*    margin-right: 50px;*/
+/*    font-family: "Outfit Thin", sans-serif;*/
+
+/*}*/
+
+/*#socialText {*/
+/*    padding-left: 40px;*/
+/*}*/
+
+/*.versionText, #socialText {*/
+/*    font-family: "Outfit Thin", sans-serif;*/
+/*    color: #EEEEEE;*/
+/*}*/
+
+/*#socialContainer>ul>li>a  {*/
+/*    color: #EEEEEE;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*#socialContainer {*/
+/*    padding-left: 70vw;*/
+/*}*/
+
+/*#versionTextContainer {*/
+/*    padding-left: 35px;*/
+/*}*/
+
+/*#miniPicture  {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    padding-left: 16vw;*/
+/*    padding-top: 7vh;*/
+/*}*/
+
+/*#lets-work-together {*/
+/*    font-family: "Outfit semiBold", sans-serif;*/
+/*    font-size: 6.5em;*/
+/*    color: #EEEEEE;*/
+/*    padding-left: 35px;*/
+/*    margin-bottom: 0;*/
+
+/*}*/
+
+/*#lets-work-together>span  {*/
+/*    color: #7FC7D9;*/
+/*}*/
+
+/*#lets_work_together_container {*/
+/*    display: flex;*/
+/*}*/
+
+/*#getInTouchButtonContainer {*/
+/*    padding-left: 41vw;*/
+/*    padding-top: 0;*/
+/*}*/
+
+/*#getInTouchButtonCus {*/
+/*    background-color: #7FC7D9;*/
+/*    border: none;*/
+/*    border-radius: 55px;*/
+/*    width: 300px;*/
+/*    height: 90px;*/
+/*    font-family: "Outfit semiBold", sans-serif;*/
+/*    font-size: 2.7em;*/
+/*    color: #17181C;*/
+/*}*/
+
+/*#FooterArrow {*/
+/*    width: 300px;*/
+/*    padding-left: 53vw;*/
+/*    padding-top: 30px;*/
+/*}*/
+
+/*#FooterEmailCus {*/
+/*    font-family: "Outfit semiBold",sans-serif;*/
+/*    color: #EEEEEE;*/
+/*    text-decoration: none;*/
+/*    font-size: 2em;*/
+/*}*/
+
+/*#footerEmail_hr {*/
+/*    height: 5px;*/
+/*    width: 400px;*/
+/*    background-color: #7FC7D9;*/
+/*    margin-left: 0;*/
+/*}*/
+
+/*#FooterEmailContainer {*/
+/*    padding-left: 35px;*/
+/*    padding-bottom: 100px;*/
+/*}*/
+
+/*!*Main Home*!*/
+/*.web-designer {*/
+/*    color: #EEEEEE;*/
+/*    font-family: "Outfit semiBold", sans-serif;*/
+/*    font-size: 16em;*/
+/*    margin: -60px;*/
+/*}*/
+
+/*.web-designer:nth-child(2) {*/
+/*    color: #7FC7D9;*/
+/*}*/
+
+/*#webDesignerContainer {*/
+/*    display: flex;*/
+/*    margin-left: 9vw;*/
+/*    margin-top: 16px;*/
+/*}*/
+
+/*#sideLine {*/
+/*    margin-left: 0;*/
+/*    position: relative;*/
+/*    left: 210px;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*#profileMainPic {*/
+/*    position: absolute;*/
+/*    padding-left: 14.1vw;*/
+/*    top: 55px;*/
+/*}*/
+
+/*#intro {*/
+/*    color: #EEEEEE;*/
+/*    font-family: "Outfit regular", sans-serif;*/
+/*    font-size: 7em;*/
+/*    margin-left: 120px;*/
+/*    margin-top: 300px;*/
+/*}*/
+
+/*#intro>span {*/
+/*    color: #7FC7D9;*/
+/*}*/
+
+/*#recentWorkHr {*/
+/*    background-color: #EEEEEE;*/
+/*    height: 15px;*/
+/*    width: 1800px;*/
+
+/*}*/
+
+/*#recentWorkContainer {*/
+/*    display: block;*/
+/*    width: 1750px;*/
+/*    margin-left: 4.1vw;*/
+/*}*/
+
+/*#recent-work {*/
+/*    color: #7FC7D9;*/
+/*    font-family: "Outfit regular", sans-serif;*/
+/*    font-size: 1.5em;*/
+/*    margin-top: 300px;*/
+/*}*/
+
+/*#recentWorkContainer>hr {*/
+/*    border: 2px solid #7FC7D9;*/
+/*    margin-top: 60px;*/
+/*}*/
+
+/*nav>div>a {*/
+/*    color: #EEEEEE;*/
+/*    text-decoration: none;*/
+/*    font-family: "Outfit Medium", sans-serif;*/
+/*    font-size: 15em;*/
+/*}*/
+
+/*#moreWorkButtonCus {*/
+/*    background-color: #7FC7D9;*/
+/*    width: 350px;*/
+/*    height: 100px;*/
+/*    border: none;*/
+/*    border-radius: 45px;*/
+/*    font-family: "Outfit Medium", sans-serif;*/
+/*    font-size: 3em;*/
+/*}*/
+
+/*#moreWorkButtonContainer {*/
+/*    margin-left: 36vw;*/
+/*    margin-top: 180px;*/
+/*    margin-bottom: 350px;*/
+/*}*/
+
+/*#profileMainPicCus {*/
+/*    !*height="800px" width="950px"*!*/
+/*    height: 800px;*/
+/*    width: 950px;*/
+/*}*/
+
+/*.brIntro {*/
+/*    display: none;*/
+/*}*/

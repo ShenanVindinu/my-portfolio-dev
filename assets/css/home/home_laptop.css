@@ -32,7 +32,7 @@
     }
 
     #headerLineSection {
-        padding-right: 200px;
+        padding-right: 150px;
         position: relative;
         bottom: 10px;
     }
@@ -53,19 +53,18 @@
     }
 
     footer {
-        display: block;
-        clear: both;
+        width: 90vw;
+        margin: auto;
     }
 
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 1350px;
     }
 
     #footerBottomSection {
         display: flex;
-        align-items: end;
+        justify-content: space-between;
     }
 
     #socialContainer>ul {
@@ -93,10 +92,6 @@
         text-decoration: none;
     }
 
-    #socialContainer {
-        padding-left: 65vw;
-    }
-
     #versionTextContainer {
         padding-left: 35px;
     }
@@ -104,8 +99,10 @@
     #miniPicture  {
         width: 200px;
         height: 200px;
-        padding-left: 7vw;
-        padding-top: 7vh;
+        /*padding-left: 7vw;*/
+        /*padding-top: 7vh;*/
+        margin-bottom: auto;
+        margin-top: auto;
     }
 
     #lets-work-together {
@@ -113,7 +110,6 @@
         font-size: 6.5em;
         color: #EEEEEE;
         padding-left: 35px;
-        margin-bottom: 0;
 
     }
 
@@ -123,11 +119,13 @@
 
     #lets_work_together_container {
         display: flex;
+        justify-content: center;
+        height: 35vh;
     }
 
     #getInTouchButtonContainer {
-        padding-left: 41vw;
-        padding-top: 0;
+        margin: auto;
+        width: 300px;
     }
 
     #getInTouchButtonCus {
@@ -142,7 +140,7 @@
     }
 
     #FooterArrow {
-        width: 300px;
+        width: 250px;
         padding-left: 56vw;
         padding-top: 30px;
     }
@@ -196,6 +194,16 @@
         height: 650px;
     }
 
+    #profileMainPicCus {
+        /*height="800px" width="950px"*/
+        height: 800px;
+        width: 950px;
+    }
+
+    .brIntro {
+        display: none;
+    }
+
     #profileMainPic {
         position: absolute;
         padding-left: 14.1vw;
@@ -217,14 +225,14 @@
     #recentWorkHr {
         background-color: #EEEEEE;
         height: 15px;
-        width: 1350px;
+        width: 90vw;
 
     }
 
     #recentWorkContainer {
         display: block;
-        width: 1330px;
-        margin-left: 7vw;
+        width: 90vw;
+        margin: auto;
     }
 
     #recent-work {
@@ -257,19 +265,8 @@
     }
 
     #moreWorkButtonContainer {
-        margin-left: 36vw;
-        margin-top: 180px;
-        margin-bottom: 350px;
-    }
-
-    #profileMainPicCus {
-        /*height="800px" width="950px"*/
-        height: 800px;
-        width: 950px;
-    }
-
-    .brIntro {
-        display: none;
+        width: 250px;
+        margin: 180px auto 350px;
     }
 
 }
@@ -277,7 +274,7 @@
 @media (max-width: 1024px) {
     body {
         background-color: #17181C;
-        /*overflow-x: hidden;*/
+        overflow-x: hidden;
     }
 
     body::-webkit-scrollbar {
@@ -308,7 +305,8 @@
     }
 
     #headerLineSection {
-        padding-left: 1024px;
+        padding-right: 150px;
+        position: relative;
         bottom: 10px;
     }
 
@@ -328,19 +326,18 @@
     }
 
     footer {
-        display: block;
-        width: 120vw;
+        width: 90vw;
+        margin: auto;
     }
 
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 1024px;
     }
 
     #footerBottomSection {
         display: flex;
-        align-items: end;
+        justify-content: space-between;
     }
 
     #socialContainer>ul {
@@ -368,10 +365,6 @@
         text-decoration: none;
     }
 
-    #socialContainer {
-        padding-left: 65vw;
-    }
-
     #versionTextContainer {
         padding-left: 35px;
     }
@@ -379,8 +372,10 @@
     #miniPicture  {
         width: 200px;
         height: 200px;
-        padding-left: 7vw;
-        padding-top: 7vh;
+        /*padding-left: 7vw;*/
+        /*padding-top: 7vh;*/
+        margin-bottom: auto;
+        margin-top: auto;
     }
 
     #lets-work-together {
@@ -388,7 +383,6 @@
         font-size: 6.5em;
         color: #EEEEEE;
         padding-left: 35px;
-        margin-bottom: 0;
 
     }
 
@@ -398,11 +392,13 @@
 
     #lets_work_together_container {
         display: flex;
+        justify-content: center;
+        height: 35vh;
     }
 
     #getInTouchButtonContainer {
-        padding-left: 41vw;
-        padding-top: 0;
+        margin: auto;
+        width: 300px;
     }
 
     #getInTouchButtonCus {
@@ -417,7 +413,7 @@
     }
 
     #FooterArrow {
-        width: 300px;
+        width: 250px;
         padding-left: 56vw;
         padding-top: 30px;
     }
@@ -445,9 +441,8 @@
     .web-designer {
         color: #EEEEEE;
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 12em;
-        width: 120vw;
-        margin-left: 10px;
+        font-size: 13em;
+        margin: 1px;
     }
 
     .web-designer:nth-child(2) {
@@ -456,19 +451,30 @@
 
     #webDesignerContainer {
         display: flex;
-        width: 120vw;
-        margin-left: 6vw;
-        margin-top: 1px;
-        justify-content: space-between;
+        margin-left: 3vw;
     }
 
     #sideLine {
+        margin-top: 20px;
+        padding-left: 50px;
+    }
 
-        margin-top: 10px;
+    #TextAndSidelineContainer {
+        display: flex;
     }
 
     #sideLine>img {
         height: 650px;
+    }
+
+    #profileMainPicCus {
+        /*height="800px" width="950px"*/
+        height: 800px;
+        width: 950px;
+    }
+
+    .brIntro {
+        display: none;
     }
 
     #profileMainPic {
@@ -493,15 +499,13 @@
         background-color: #EEEEEE;
         height: 15px;
         width: 90vw;
-        margin: auto;
-
 
     }
 
     #recentWorkContainer {
         display: block;
-        width: 1024px;
-        margin-left: 7vw;
+        width: 90vw;
+        margin: auto;
     }
 
     #recent-work {
@@ -534,18 +538,7 @@
     }
 
     #moreWorkButtonContainer {
-        margin-left: 36vw;
-        margin-top: 180px;
-        margin-bottom: 350px;
-    }
-
-    #profileMainPicCus {
-        /*height="800px" width="950px"*/
-        height: 800px;
-        width: 950px;
-    }
-
-    .brIntro {
-        display: none;
+        width: 250px;
+        margin: 180px auto 350px;
     }
 }
