@@ -53,19 +53,19 @@
     }
 
     footer {
-        display: block;
-        clear: both;
+        width: 90vw;
+        margin: auto;
+        margin-top: 200px;
     }
 
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 700px;
     }
 
     #footerBottomSection {
         display: flex;
-        align-items: end;
+        justify-content: space-between;
     }
 
     #socialContainer>ul {
@@ -93,10 +93,6 @@
         text-decoration: none;
     }
 
-    #socialContainer {
-        padding-left: 35vw;
-    }
-
     #versionTextContainer {
         padding-left: 35px;
     }
@@ -104,16 +100,15 @@
     #miniPicture  {
         width: 200px;
         height: 200px;
-        padding-left: 7vw;
-        padding-top: 7vh;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     #lets-work-together {
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 5em;
+        font-size: clamp(2rem, 10vw, 6.5rem);
         color: #EEEEEE;
         padding-left: 35px;
-        margin-bottom: 0;
 
     }
 
@@ -123,26 +118,28 @@
 
     #lets_work_together_container {
         display: flex;
+        justify-content: center;
+        margin-top: 5vh;
     }
 
     #getInTouchButtonContainer {
-        padding-left: 41vw;
-        padding-top: 50px;
+        margin: auto;
+        width: 300px;
     }
 
     #getInTouchButtonCus {
         background-color: #7FC7D9;
         border: none;
         border-radius: 55px;
-        width: 150px;
-        height: 50px;
+        width: 300px;
+        height: 90px;
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 1.2em;
+        font-size: 2.7em;
         color: #17181C;
     }
 
     #FooterArrow {
-        width: 100px;
+        width: 250px;
         padding-left: 56vw;
         padding-top: 30px;
     }
@@ -151,19 +148,18 @@
         font-family: "Outfit semiBold",sans-serif;
         color: #EEEEEE;
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #footerEmail_hr {
         height: 5px;
-        width: 300px;
+        width: 400px;
         background-color: #7FC7D9;
         margin-left: 0;
     }
 
     #FooterEmailContainer {
-        padding-left: 31vw;
-        padding-top: 10vw;
+        padding-left: 35px;
         padding-bottom: 100px;
     }
 

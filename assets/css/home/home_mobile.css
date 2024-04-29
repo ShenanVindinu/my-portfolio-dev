@@ -51,21 +51,24 @@
     }
 
     footer {
-        display: block;
-        clear: both;
-        margin-left: 50px;
-        width: 100vw;
+        width: 90vw;
+        margin: auto;
+        margin-top: 200px;
     }
 
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 400px;
+    }
+
+    #footerBottomSection {
+        display: flex;
+        justify-content: space-between;
     }
 
     #socialContainer>ul {
         list-style: none;
-        display: none;
+        display: flex;
     }
 
     #socialContainer>ul>li {
@@ -76,10 +79,9 @@
 
     #socialText {
         padding-left: 40px;
-        display: none;
     }
 
-    .versionText {
+    .versionText, #socialText {
         font-family: "Outfit Thin", sans-serif;
         color: #EEEEEE;
     }
@@ -89,29 +91,22 @@
         text-decoration: none;
     }
 
-    #socialContainer {
-        padding-left: 35vw;
-    }
-
     #versionTextContainer {
-        padding-left: 150px;
-        text-align: center;
+        padding-left: 35px;
     }
 
     #miniPicture  {
         width: 200px;
         height: 200px;
-        padding-left: 24vw;
-        padding-top: 7vh;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     #lets-work-together {
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 4em;
+        font-size: clamp(2rem, 10vw, 6.5rem);
         color: #EEEEEE;
-        padding-left: 15px;
-        margin-bottom: 0;
-        text-align: center;
+        padding-left: 35px;
 
     }
 
@@ -120,27 +115,29 @@
     }
 
     #lets_work_together_container {
-        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
     }
 
     #getInTouchButtonContainer {
-        padding-left: 30vw;
-        padding-top: 50px;
+        margin: auto;
+        width: 300px;
     }
 
     #getInTouchButtonCus {
         background-color: #7FC7D9;
         border: none;
         border-radius: 55px;
-        width: 150px;
-        height: 50px;
+        width: 300px;
+        height: 90px;
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 1.2em;
+        font-size: 2.7em;
         color: #17181C;
     }
 
     #FooterArrow {
-        width: 100px;
+        width: 250px;
         padding-left: 56vw;
         padding-top: 30px;
     }
@@ -149,19 +146,18 @@
         font-family: "Outfit semiBold",sans-serif;
         color: #EEEEEE;
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #footerEmail_hr {
         height: 5px;
-        width: 300px;
+        width: 400px;
         background-color: #7FC7D9;
         margin-left: 0;
     }
 
     #FooterEmailContainer {
-        padding-left: 10vw;
-        padding-top: 10vw;
+        padding-left: 35px;
         padding-bottom: 100px;
     }
 
@@ -341,21 +337,24 @@
     }
 
     footer {
-        display: block;
-        clear: both;
-        margin-left: 50px;
-        width: 100vw;
+        width: 90vw;
+        margin: auto;
+        margin-top: 200px;
     }
 
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 400px;
+    }
+
+    #footerBottomSection {
+        display: flex;
+        justify-content: space-between;
     }
 
     #socialContainer>ul {
         list-style: none;
-        display: none;
+        display: flex;
     }
 
     #socialContainer>ul>li {
@@ -366,10 +365,9 @@
 
     #socialText {
         padding-left: 40px;
-        display: none;
     }
 
-    .versionText {
+    .versionText, #socialText {
         font-family: "Outfit Thin", sans-serif;
         color: #EEEEEE;
     }
@@ -379,29 +377,22 @@
         text-decoration: none;
     }
 
-    #socialContainer {
-        padding-left: 35vw;
-    }
-
     #versionTextContainer {
-        padding-left: 150px;
-        text-align: center;
+        padding-left: 35px;
     }
 
     #miniPicture  {
         width: 200px;
         height: 200px;
-        padding-left: 24vw;
-        padding-top: 7vh;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     #lets-work-together {
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 4em;
+        font-size: clamp(2rem, 10vw, 6.5rem);
         color: #EEEEEE;
-        padding-left: 15px;
-        margin-bottom: 0;
-        text-align: center;
+        padding-left: 35px;
 
     }
 
@@ -410,27 +401,29 @@
     }
 
     #lets_work_together_container {
-        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
     }
 
     #getInTouchButtonContainer {
-        padding-left: 30vw;
-        padding-top: 50px;
+        margin: auto;
+        width: 300px;
     }
 
     #getInTouchButtonCus {
         background-color: #7FC7D9;
         border: none;
         border-radius: 55px;
-        width: 150px;
-        height: 50px;
+        width: 300px;
+        height: 90px;
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 1.2em;
+        font-size: 2.7em;
         color: #17181C;
     }
 
     #FooterArrow {
-        width: 100px;
+        width: 250px;
         padding-left: 56vw;
         padding-top: 30px;
     }
@@ -439,19 +432,18 @@
         font-family: "Outfit semiBold",sans-serif;
         color: #EEEEEE;
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #footerEmail_hr {
         height: 5px;
-        width: 300px;
+        width: 400px;
         background-color: #7FC7D9;
         margin-left: 0;
     }
 
     #FooterEmailContainer {
-        padding-left: 10vw;
-        padding-top: 10vw;
+        padding-left: 35px;
         padding-bottom: 100px;
     }
 
@@ -630,21 +622,24 @@
     }
 
     footer {
-        display: block;
-        clear: both;
-        margin-left: 50px;
-        width: 100vw;
+        width: 90vw;
+        margin: auto;
+        margin-top: 200px;
     }
 
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 400px;
+    }
+
+    #footerBottomSection {
+        display: flex;
+        justify-content: space-between;
     }
 
     #socialContainer>ul {
         list-style: none;
-        display: none;
+        display: flex;
     }
 
     #socialContainer>ul>li {
@@ -655,10 +650,9 @@
 
     #socialText {
         padding-left: 40px;
-        display: none;
     }
 
-    .versionText {
+    .versionText, #socialText {
         font-family: "Outfit Thin", sans-serif;
         color: #EEEEEE;
     }
@@ -668,29 +662,22 @@
         text-decoration: none;
     }
 
-    #socialContainer {
-        padding-left: 35vw;
-    }
-
     #versionTextContainer {
-        padding-left: 150px;
-        text-align: center;
+        padding-left: 35px;
     }
 
     #miniPicture  {
         width: 200px;
         height: 200px;
-        padding-left: 24vw;
-        padding-top: 7vh;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     #lets-work-together {
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 4em;
+        font-size: clamp(2rem, 10vw, 6.5rem);
         color: #EEEEEE;
-        padding-left: 15px;
-        margin-bottom: 0;
-        text-align: center;
+        padding-left: 35px;
 
     }
 
@@ -699,27 +686,29 @@
     }
 
     #lets_work_together_container {
-        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
     }
 
     #getInTouchButtonContainer {
-        padding-left: 30vw;
-        padding-top: 50px;
+        margin: auto;
+        width: 300px;
     }
 
     #getInTouchButtonCus {
         background-color: #7FC7D9;
         border: none;
         border-radius: 55px;
-        width: 150px;
-        height: 50px;
+        width: 300px;
+        height: 90px;
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 1.2em;
+        font-size: 2.7em;
         color: #17181C;
     }
 
     #FooterArrow {
-        width: 100px;
+        width: 250px;
         padding-left: 56vw;
         padding-top: 30px;
     }
@@ -728,19 +717,18 @@
         font-family: "Outfit semiBold",sans-serif;
         color: #EEEEEE;
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #footerEmail_hr {
         height: 5px;
-        width: 300px;
+        width: 400px;
         background-color: #7FC7D9;
         margin-left: 0;
     }
 
     #FooterEmailContainer {
-        padding-left: 10vw;
-        padding-top: 10vw;
+        padding-left: 35px;
         padding-bottom: 100px;
     }
 

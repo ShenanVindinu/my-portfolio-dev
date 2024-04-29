@@ -54,6 +54,7 @@ header>div>img {
 footer {
     width: 90vw;
     margin: auto;
+    margin-top: 200px;
 }
 
 footer>hr  {
@@ -98,15 +99,13 @@ footer>hr  {
 #miniPicture  {
     width: 200px;
     height: 200px;
-    /*padding-left: 7vw;*/
-    /*padding-top: 7vh;*/
-    margin-bottom: auto;
     margin-top: auto;
+    margin-bottom: auto;
 }
 
 #lets-work-together {
     font-family: "Outfit semiBold", sans-serif;
-    font-size: 6.5em;
+    font-size: clamp(2rem, 10vw, 6.5rem);
     color: #EEEEEE;
     padding-left: 35px;
 
@@ -119,7 +118,7 @@ footer>hr  {
 #lets_work_together_container {
     display: flex;
     justify-content: center;
-    height: 35vh;
+    margin-top: 5vh;
 }
 
 #getInTouchButtonContainer {
