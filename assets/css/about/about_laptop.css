@@ -1,7 +1,8 @@
 @media (max-width: 1440px) {
+
     body {
         background-color: #17181C;
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
     }
 
     body::-webkit-scrollbar {
@@ -10,20 +11,19 @@
 
 
     footer {
-        display: block;
-        clear: both;
+        width: 90vw;
+        margin: auto;
         margin-top: 200px;
     }
 
     footer>hr  {
         background-color: #EEEEEE;
         height: 15px;
-        width: 1350px;
     }
 
     #footerBottomSection {
         display: flex;
-        align-items: end;
+        justify-content: space-between;
     }
 
     #socialContainer>ul {
@@ -51,27 +51,20 @@
         text-decoration: none;
     }
 
-    #socialContainer {
-        padding-left: 65vw;
-    }
-
     #versionTextContainer {
         padding-left: 35px;
     }
 
     #miniPicture  {
-        width: 200px;
-        height: 200px;
-        padding-left: 7vw;
-        padding-top: 7vh;
+        width: clamp(50px, 150px, 200px);
+        height: clamp(50px, 150px, 200px);
     }
 
     #lets-work-together {
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 6.5em;
+        font-size: clamp(2rem, 6vw, 6.5rem);
         color: #EEEEEE;
         padding-left: 35px;
-        margin-bottom: 0;
 
     }
 
@@ -84,23 +77,23 @@
     }
 
     #getInTouchButtonContainer {
-        padding-left: 41vw;
-        padding-top: 0;
+        margin: auto;
+        width: 200px;
     }
 
     #getInTouchButtonCus {
         background-color: #7FC7D9;
         border: none;
         border-radius: 55px;
-        width: 300px;
-        height: 90px;
+        width: 250px;
+        height: 60px;
         font-family: "Outfit semiBold", sans-serif;
-        font-size: 2.7em;
+        font-size: 2.1rem;
         color: #17181C;
     }
 
     #FooterArrow {
-        width: 300px;
+        max-width: 200px;
         padding-left: 56vw;
         padding-top: 30px;
     }
@@ -109,14 +102,13 @@
         font-family: "Outfit semiBold",sans-serif;
         color: #EEEEEE;
         text-decoration: none;
-        font-size: 2em;
+        font-size: clamp(1rem, 4vw, 2rem);
     }
 
     #footerEmail_hr {
         height: 5px;
-        width: 400px;
         background-color: #7FC7D9;
-        margin-left: 0;
+        margin-right: 0;
     }
 
     #FooterEmailContainer {
@@ -171,13 +163,14 @@
 
     /*mainIntro*/
 
-    main>div {
+    .Intro {
         color: #EEEEEE;
         font-family: "Outfit Black", sans-serif;
+        font-weight: bold;
         font-size: 350px;
         text-align: center;
         line-height: 900px;
-        margin-top: -70px;
+        margin-top: -100px;
     }
 
     main>div>span {
@@ -248,7 +241,7 @@
         color: #EEEEEE;
         font-size: 2.5em;
         margin-bottom: 0;
-        margin-left: 120px;
+        margin-left: 170px;
     }
 
     #also>span {
@@ -271,7 +264,7 @@
         height: 450px;
         margin-top: 115px;
         margin-bottom: 50px;
-        margin-left: 100px;
+        margin-left: 150px;
     }
 
     #ijse-student {
@@ -283,7 +276,7 @@
         font-family: "Outfit Medium", sans-serif;
         font-size: 5em;
         display: flex;
-        margin-left: 100px;
+        margin-left: 170px;
         margin-top: 50px;
     }
 
@@ -315,7 +308,7 @@
         font-family: "Outfit Medium", sans-serif;
         color: #EEEEEE;
         font-size: 5em;
-        margin-left: 60px;
+        margin-left: 120px;
     }
 
     #SE>span {
@@ -323,7 +316,7 @@
     }
 
     #uiDesignImage {
-        margin-left: 60px;
+        margin-left: 110px;
         margin-top: 50px;
         width: 1320px;
     }
@@ -339,7 +332,7 @@
         font-family: "Outfit Medium", sans-serif;
         color: #EEEEEE;
         font-size: 5em;
-        margin-left: 60px;
+        margin-left: 120px;
         margin-top: 100px;
     }
 
@@ -358,7 +351,7 @@
         color: #EEEEEE;
         font-family: "Outfit Medium", sans-serif;
         font-size: 12em;
-        margin-left: 250px;
+        margin-left: 300px;
         margin-top: 250px;
     }
 
@@ -415,7 +408,7 @@
 
     #happyFace {
         position: relative;
-        margin-left: -880px;
+        margin-left: -960px;
         margin-top: 50px;
         width: 25%;
         height: 25%;
