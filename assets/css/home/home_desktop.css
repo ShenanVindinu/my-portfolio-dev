@@ -198,7 +198,7 @@ section>main {
 
 #sideLine>img {
     display: flex;
-    height: clamp(40px, 50vw, 650px);
+    height: clamp(40px, 40vw, 650px);
 }
 
 #profileMainPicCus {
