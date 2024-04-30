@@ -166,7 +166,7 @@ footer>hr  {
 .web-designer {
     color: #EEEEEE;
     font-family: "Outfit semiBold", sans-serif;
-    font-size: 13em;
+    font-size: clamp(5rem, 13vw, 13rem);
     margin: 1px;
 }
 
@@ -178,6 +178,12 @@ footer>hr  {
     margin-left: auto;
     margin-right: 3.5%;
     width: 90vw;
+}
+
+#webDesignerContainer2 {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
 }
 
 #sideLine {
