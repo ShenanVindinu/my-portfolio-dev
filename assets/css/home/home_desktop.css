@@ -177,13 +177,14 @@ footer>hr  {
 #webDesignerContainer {
     margin-left: auto;
     margin-right: 3.5%;
-    width: 90vw;
+    /*width: 90vw;*/
 }
 
 #webDesignerContainer2 {
     display: grid;
     justify-items: center;
     justify-content: center;
+    padding-right: 2vw;
 }
 
 #sideLine {
@@ -196,15 +197,14 @@ section>main {
 }
 
 #sideLine>img {
-    height: 650px;
     display: flex;
-    /*justify-content: flex-end;*/
+    height: clamp(40px, 50vw, 650px);
 }
 
 #profileMainPicCus {
     /*height="800px" width="950px"*/
-    height: 800px;
-    width: 950px;
+    height: clamp(200px, 50vw, 800px);
+    width: clamp(350px, 60vw, 950px);
 }
 
 .brIntro {
@@ -213,8 +213,12 @@ section>main {
 
 #profileMainPic {
     position: absolute;
-    padding-left: 14.1vw;
+    padding-left: 20vw;
     top: 55px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 #intro {
