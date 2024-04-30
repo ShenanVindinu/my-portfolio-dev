@@ -224,9 +224,9 @@ section>main {
 #intro {
     color: #EEEEEE;
     font-family: "Outfit regular", sans-serif;
-    font-size: 5em;
-    margin-left: 120px;
-    margin-top: 300px;
+    font-size: clamp(2rem, 5vw, 5rem);
+    margin-left: 5vw;
+    margin-top: 10vh;
 }
 
 #intro>span {
