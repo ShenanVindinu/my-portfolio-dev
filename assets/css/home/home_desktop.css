@@ -36,6 +36,10 @@ header>button>img {
     bottom: 10px;
 }
 
+#ShContainer {
+    display: none;
+}
+
 header>div>img {
     width: clamp(50px,15vw,130px);
     height: clamp(5px,15vw,40px);
