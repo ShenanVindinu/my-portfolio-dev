@@ -170,8 +170,8 @@ footer>hr  {
 .web-designer {
     color: #EEEEEE;
     font-family: "Outfit semiBold", sans-serif;
-    font-size: clamp(5rem, 13vw, 13rem);
-    margin: 1px;
+    font-size: clamp(5rem, 13vw, 15rem);
+    margin: -5px;
 }
 
 .web-designer:nth-child(2) {
