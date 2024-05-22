@@ -210,6 +210,7 @@ main>span {
 
 .redUnderline {
     width: 70vw;
+    margin-top: 10px;
 }
 
 #myAssignmentsHeading {
@@ -218,3 +219,25 @@ main>span {
     font-size: 2em;
 }
 
+#AssignmentContainer {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20vh;
+}
+
+#AssignmentContainer>hr {
+    width: 90vw;
+    height: 5px;
+    background-color: #7FC7D9;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#AssignmentContainer>a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-family: "Outfit Medium", sans-serif;
+    font-size: clamp(4rem, 13vw, 15rem);
+}
