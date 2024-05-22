@@ -259,7 +259,7 @@ section>main {
 
 #recentWorkContainer>hr {
     border: 2px solid #7FC7D9;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 nav>div>a {
@@ -269,10 +269,14 @@ nav>div>a {
     font-size: clamp(5rem, 20vw, 15rem);
 }
 
+#redUnderline {
+    width: 70vw;
+}
+
 #moreWorkButtonCus {
     background-color: #7FC7D9;
-    width: clamp(100px, 40vw, 250px);
-    height: clamp(40px, 10vw, 80px);
+    width: clamp(200px, 40vw, 250px);
+    height: clamp(80px, 10vw, 80px);
     border: none;
     border-radius: 45px;
     font-family: "Outfit Medium", sans-serif;
@@ -280,10 +284,6 @@ nav>div>a {
 }
 
 #moreWorkButtonContainer {
-    width: 250px;
-    margin: 180px auto 350px;
-}
-
-#redUnderline {
-    width: 70vw;
+    width: 215px;
+    margin: 10vh auto 25vh;
 }
