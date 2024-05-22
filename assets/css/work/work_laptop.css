@@ -199,6 +199,7 @@ main>span {
     background-color: #7FC7D9;
     margin-bottom: 50px;
     margin-top: 50px;
+    border: none;
 }
 
 #recentWorkContainer>a {
@@ -233,6 +234,7 @@ main>span {
     background-color: #7FC7D9;
     margin-bottom: 50px;
     margin-top: 50px;
+    border: none;
 }
 
 #AssignmentContainer>a {
