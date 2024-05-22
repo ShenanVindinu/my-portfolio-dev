@@ -1,6 +1,6 @@
 body {
     background-color: #17181C;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -9,20 +9,19 @@ body::-webkit-scrollbar {
 
 
 footer {
-    display: block;
-    clear: both;
+    width: 90vw;
+    margin: auto;
     margin-top: 200px;
 }
 
 footer>hr  {
     background-color: #EEEEEE;
     height: 15px;
-    width: 1350px;
 }
 
 #footerBottomSection {
     display: flex;
-    align-items: end;
+    justify-content: space-between;
 }
 
 #socialContainer>ul {
@@ -50,10 +49,6 @@ footer>hr  {
     text-decoration: none;
 }
 
-#socialContainer {
-    padding-left: 65vw;
-}
-
 #versionTextContainer {
     padding-left: 35px;
 }
@@ -61,16 +56,15 @@ footer>hr  {
 #miniPicture  {
     width: 200px;
     height: 200px;
-    padding-left: 7vw;
-    padding-top: 7vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #lets-work-together {
     font-family: "Outfit semiBold", sans-serif;
-    font-size: 6.5em;
+    font-size: clamp(2rem, 10vw, 6.5rem);
     color: #EEEEEE;
     padding-left: 35px;
-    margin-bottom: 0;
 
 }
 
@@ -80,11 +74,13 @@ footer>hr  {
 
 #lets_work_together_container {
     display: flex;
+    justify-content: center;
+    margin-top: 5vh;
 }
 
 #getInTouchButtonContainer {
-    padding-left: 41vw;
-    padding-top: 0;
+    margin: auto;
+    width: 300px;
 }
 
 #getInTouchButtonCus {
@@ -99,7 +95,7 @@ footer>hr  {
 }
 
 #FooterArrow {
-    width: 300px;
+    width: 250px;
     padding-left: 56vw;
     padding-top: 30px;
 }
@@ -191,61 +187,34 @@ main>span {
 }
 
 #recentWorkContainer {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    width: 1330px;
-    margin-left: 7vw;
-    margin-bottom: 200px;
-}
-
-#recent-work {
-    color: #7FC7D9;
-    font-family: "Outfit regular", sans-serif;
-    font-size: 1.5em;
-    margin-top: 300px;
 }
 
 #recentWorkContainer>hr {
-    border: 2px solid #7FC7D9;
-    margin-top: 60px;
+    width: 90vw;
+    height: 5px;
+    background-color: #7FC7D9;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-nav>div>a {
+#recentWorkContainer>a {
     color: #EEEEEE;
     text-decoration: none;
     font-family: "Outfit Medium", sans-serif;
-    font-size: 15em;
+    font-size: clamp(5rem, 20vw, 15rem);
+}
+
+.redUnderline {
+    width: 70vw;
 }
 
 #myAssignmentsHeading {
     color: #EEEEEE;
     font-family: "Outfit regular", sans-serif;
     font-size: 2em;
-    margin-left: 110px;
 }
 
-div>div>span {
-    color: #7FC7D9;
-}
-
-div>div>a {
-    color: #EEEEEE;
-    text-decoration: none;
-    font-family: "Outfit semiBold", sans-serif;
-    font-size: 13em;
-    margin: 110px;
-}
-
-div>div>img {
-    margin-left: 110px;
-    margin-top: 20px;
-}
-
-div>div>hr {
-    border: 2px solid #7FC7D9;
-    margin-top: 60px;
-    width: 1330px;
-}
-
-#AssignmentContainer {
-    margin-bottom: 300px;
-}
