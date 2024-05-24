@@ -246,3 +246,10 @@ main>span {
     font-family: "Outfit Medium", sans-serif;
     font-size: clamp(4rem, 13vw, 15rem);
 }
+
+.gitButton {
+    background: none;
+    cursor: pointer;
+    border: none;
+    margin-left: 1vw;
+}
