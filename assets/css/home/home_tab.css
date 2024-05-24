@@ -61,6 +61,16 @@
         padding-left: 6vw;
     }
 
+    #socialContainer {
+        display: none;
+    }
+
+    #versionTextContainer {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 
 }
 
@@ -77,4 +87,24 @@
         padding-left: 0;
     }
 
+}
+
+@media (max-width: 368px) {
+    .web-designer {
+        font-size: clamp(10rem, 20vw, 15rem);
+        line-height: 25vh;
+        margin-top: 25px;
+    }
+
+    .web-designer:nth-child(1) {
+        margin-left: 20vw;
+    }
+
+    .web-designer:nth-child(2) {
+        margin-left: 20vw;
+    }
+
+    .web-designer:nth-child(3) {
+        margin-left: 20vw;
+    }
 }
