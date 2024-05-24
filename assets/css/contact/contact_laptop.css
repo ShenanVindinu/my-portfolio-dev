@@ -147,6 +147,7 @@ footer>hr  {
     font-family: "Outfit semiBold", sans-serif;
     font-size: 2.7em;
     color: #17181C;
+    cursor: pointer;
 }
 
 #FooterArrow {
@@ -256,6 +257,7 @@ section>div>div>div>button {
     color: #17181C;
     font-family: "Outfit semiBold", sans-serif;
     font-size: 2em;
+    cursor: pointer;
 }
 
 section>div>div>img {
