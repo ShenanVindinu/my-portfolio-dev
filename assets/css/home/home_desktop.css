@@ -273,7 +273,8 @@ nav>div>a {
     font-size: clamp(5rem, 20vw, 15rem);
 }
 
-#redUnderline {
+.redUnderline {
+    margin-top: 15px;
     width: 70vw;
 }
 
