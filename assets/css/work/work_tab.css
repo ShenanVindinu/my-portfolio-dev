@@ -69,14 +69,29 @@
     main {
         color: #EEEEEE;
         font-family: "Outfit regular", sans-serif;
-        font-size: 6em;
-        margin-top: 100px;
-        margin-left: 70px;
-        margin-bottom: 250px;
+        font-size: 5em;
+        margin: 100px auto 250px 50px;
     }
 
     main>span {
         color: #7FC7D9;
+    }
+
+    #socialContainer {
+        display: none;
+    }
+
+    #versionTextContainer {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #AssignmentContainer>a {
+        color: #EEEEEE;
+        text-decoration: none;
+        font-family: "Outfit Medium", sans-serif;
+        font-size: clamp(3rem, 10vw, 15rem);
     }
 
 }

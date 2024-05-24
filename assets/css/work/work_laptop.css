@@ -10,7 +10,8 @@ body::-webkit-scrollbar {
 
 footer {
     width: 90vw;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 200px;
 }
 
@@ -79,7 +80,9 @@ footer>hr  {
 }
 
 #getInTouchButtonContainer {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     width: 300px;
 }
 
@@ -95,7 +98,7 @@ footer>hr  {
 }
 
 #FooterArrow {
-    width: 250px;
+    width: 150px;
     padding-left: 56vw;
     padding-top: 30px;
 }
@@ -109,14 +112,15 @@ footer>hr  {
 
 #footerEmail_hr {
     height: 5px;
-    width: 400px;
+    width: 380px;
     background-color: #7FC7D9;
-    margin-left: 0;
+    border: none;
 }
 
 #FooterEmailContainer {
-    padding-left: 35px;
-    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 /*header*/
@@ -177,9 +181,7 @@ main {
     color: #EEEEEE;
     font-family: "Outfit regular", sans-serif;
     font-size: 13em;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-bottom: 250px;
+        margin: 100px auto 250px 50px;
 }
 
 main>span {
