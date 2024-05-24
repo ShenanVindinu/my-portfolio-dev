@@ -89,7 +89,7 @@
 
 }
 
-@media (max-width: 368px) {
+@media (max-width: 376px) {
     .web-designer {
         font-size: clamp(10rem, 20vw, 15rem);
         line-height: 25vh;
