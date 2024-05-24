@@ -9,20 +9,20 @@ body::-webkit-scrollbar {
 
 
 footer {
-    display: block;
-    clear: both;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 200px;
 }
 
 footer>hr  {
     background-color: #EEEEEE;
     height: 15px;
-    width: 1350px;
 }
 
 #footerBottomSection {
     display: flex;
-    align-items: end;
+    justify-content: space-between;
 }
 
 #socialContainer>ul {
@@ -50,10 +50,6 @@ footer>hr  {
     text-decoration: none;
 }
 
-#socialContainer {
-    padding-left: 65vw;
-}
-
 #versionTextContainer {
     padding-left: 35px;
 }
@@ -61,16 +57,15 @@ footer>hr  {
 #miniPicture  {
     width: 200px;
     height: 200px;
-    padding-left: 7vw;
-    padding-top: 7vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #lets-work-together {
     font-family: "Outfit semiBold", sans-serif;
-    font-size: 6.5em;
+    font-size: clamp(2rem, 10vw, 6.5rem);
     color: #EEEEEE;
     padding-left: 35px;
-    margin-bottom: 0;
 
 }
 
@@ -80,11 +75,15 @@ footer>hr  {
 
 #lets_work_together_container {
     display: flex;
+    justify-content: center;
+    margin-top: 5vh;
 }
 
 #getInTouchButtonContainer {
-    padding-left: 41vw;
-    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 300px;
 }
 
 #getInTouchButtonCus {
@@ -99,8 +98,8 @@ footer>hr  {
 }
 
 #FooterArrow {
-    width: 300px;
-    padding-left: 56vw;
+    width: 150px;
+    padding-left: 50vw;
     padding-top: 30px;
 }
 
@@ -113,22 +112,22 @@ footer>hr  {
 
 #footerEmail_hr {
     height: 5px;
-    width: 400px;
+    width: 380px;
     background-color: #7FC7D9;
-    margin-left: 0;
+    border: none;
 }
 
 #FooterEmailContainer {
-    padding-left: 35px;
-    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
-
-/*header*/
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 header>div>a {
@@ -167,6 +166,14 @@ header>nav {
     margin-right: 50px;
 }
 
+#hamburgerButton {
+    display: none;
+}
+
+#enan {
+    color: #EEEEEE;
+}
+
 /*image section*/
 
 section>div {
@@ -175,39 +182,21 @@ section>div {
     margin-bottom: 80px;
 }
 
-#colorChoosePic {
-    width: 750px;
-    height: 450px;
-}
-
-#pcPic {
-    width: 550px;
-    height: 450px;
-}
-
-section>img {
-    width: 1400px;
-    margin-left: 55px;
-    margin-bottom: 80px;
-}
-
-#bagPic {
-    width: 500px;
-    height: 500px;
-}
-
-#tabPic {
-    width: 750px;
-    height: 500px;
+#Images {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 100px;
 }
 
 #Gallery {
     color: #EEEEEE;
     font-family: "Outfit Light", sans-serif;
     font-size: 5em;
-    margin-left: 40vw;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin: 150px auto 100px;
+    text-align: center;
 }
 
 div>span {
@@ -217,6 +206,7 @@ div>span {
 #Gallery>hr {
     height: 10px;
     width: 270px;
-    margin: 15px 0 0 0;
     background-color: #7FC7D9;
+    margin: 15px auto 0;
 }
+

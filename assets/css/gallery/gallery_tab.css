@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header>div>a {
+        text-decoration: none;
+        font-family: "Outfit semiBold", sans-serif;
+        color: #EEEEEE;
+        font-size: 3em;
+    }
+
+    header>div>a>span {
+        color: #7FC7D9;
+    }
+
+    header>div {
+        margin-left: 65vw;
+        margin-top: 50px;
+    }
+
+    header>nav>ul {
+        list-style: none;
+        color: #EEEEEE;
+        font-family: "Outfit Medium", sans-serif;
+        font-size: 2em;
+        display: none;
+    }
+
+    header>nav>ul>li {
+        margin-right: 75px;
+    }
+
+    header>nav {
+        margin-right: 50px;
+    }
+
+    #hamburgerButton {
+        border: none;
+        background-color: #17181c;
+        width: 55px;
+        height: 55px;
+        padding-top: 30px;
+        padding-left: 55px;
+        display: flex;
+    }
+
+    header>button>img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #enan {
+        display: none;
+    }
+
+    #socialContainer {
+        display: none;
+    }
+
+    #versionTextContainer {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #Images {
+        margin-left: 12vw;
+    }
+
+}
