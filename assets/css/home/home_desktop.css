@@ -160,11 +160,13 @@ footer>hr  {
     height: 5px;
     width: 380px;
     background-color: #7FC7D9;
+    border: none;
 }
 
 #FooterEmailContainer {
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 /*Main Home*/
