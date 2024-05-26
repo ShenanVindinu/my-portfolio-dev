@@ -211,7 +211,9 @@ footer > hr {
 article {
     display: flex;
     justify-content: space-between;
-    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
 }
 
 #whatIDoContainer {
@@ -223,7 +225,6 @@ article {
 #what-i-do {
     font-family: "Outfit Medium", sans-serif;
     font-size: clamp(5rem, 20vw, 6rem);
-    margin-left: 10vw;
 }
 
 #what-i-do > span {
@@ -233,11 +234,53 @@ article {
 #paragraphIHelp {
     font-family: "Outfit Light", sans-serif;
     font-size: clamp(1rem, 20vw, 1.5rem);
-    margin-left: 10vw;
     margin-top: 5vh;
 }
 
 #ShenanGreyScaleImg {
     width: 40%;
     height: auto;
+}
+
+#alsoSection > hr {
+    height: 10px;
+    background-color: #EEEEEE;
+    border: none;
+    width: 90vw;
+}
+
+#alsoSection > div {
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#also {
+    color: #EEEEEE;
+    font-family: "Outfit Medium", sans-serif;
+    margin-left: 5vw;
+    font-size: 3rem;
+}
+
+#also > span {
+    color: #ff253a;
+}
+
+#IjseImage {
+    width: 30vw;
+    height: auto;
+}
+
+#ijseStudent {
+    color: #EEEEEE;
+    font-family: "Outfit Light",sans-serif;
+    font-size: clamp(1rem, 100vw, 5rem);
+}
+
+#ijseStudent > span {
+    color: #ff253a;
 }
