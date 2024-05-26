@@ -68,7 +68,14 @@
     }
 
     #Images {
-        margin-left: 12vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+}
+
+@media (max-width: 376px) {
+    body {
+        position: absolute;
+    }
 }
