@@ -224,7 +224,7 @@ article {
 
 #what-i-do {
     font-family: "Outfit Medium", sans-serif;
-    font-size: clamp(5rem, 20vw, 6rem);
+    font-size: clamp(3rem, 5vw, 6rem);
 }
 
 #what-i-do > span {
@@ -233,7 +233,7 @@ article {
 
 #paragraphIHelp {
     font-family: "Outfit Light", sans-serif;
-    font-size: clamp(1rem, 20vw, 1.5rem);
+    font-size: clamp(1rem, 5vw, 1.5rem);
     margin-top: 5vh;
 }
 
@@ -278,9 +278,111 @@ article {
 #ijseStudent {
     color: #EEEEEE;
     font-family: "Outfit Light",sans-serif;
-    font-size: clamp(1rem, 100vw, 5rem);
+    font-size: clamp(1rem, 5vw, 6rem);
 }
 
 #ijseStudent > span {
     color: #ff253a;
 }
+
+#and-my-skills-are {
+    width: 90vw;
+    margin-top: 20vh;
+    display: flex;
+}
+
+#and-my-skills-are > div {
+    color: #EEEEEE;
+    font-family: "Outfit Medium",sans-serif;
+    font-size: clamp(1rem, 10vw, 6rem);
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#DownArrowSkills {
+    width: 10%;
+    height: auto;
+    margin-top: 45vh;
+}
+
+#and-my-skills-are > div > span {
+    color: #7FC7D9;
+}
+
+#skillLogosContainer {
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skillLogosContainer > img {
+    width: 20vw;
+    margin: 5px;
+}
+
+#skillsSection > hr {
+    background-color: #EEEEEE;
+    height: 10px;
+    border: none;
+    width: 90vw;
+    margin-top: 20vh;
+}
+
+#SESection {
+    display: flex;
+    flex-direction: column;
+}
+
+#SE {
+    font-family: "Outfit Medium", sans-serif;
+    color: #EEEEEE;
+    font-size: clamp(1rem, 8vw, 6rem);
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+}
+
+#SE > span {
+    color: #7FC7D9;
+}
+
+#uiDesignImage {
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#downArrowSE {
+    width: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+
+}
+
+#SESection > hr {
+    width: 90vw;
+    height: 15px;
+    background-color: #EEEEEE;
+    border: none;
+}
+
+#whatIBring {
+    font-family: "Outfit Medium", sans-serif;
+    color: #EEEEEE;
+    font-size: clamp(1rem, 8vw, 7rem);
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+#whatIBring > span {
+    color: #7FC7D9;
+}
+
