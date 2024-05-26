@@ -15,23 +15,23 @@
         align-items: center;
     }
 
-    header>div>a {
+    header > div > a {
         text-decoration: none;
         font-family: "Outfit semiBold", sans-serif;
         color: #EEEEEE;
         font-size: 3em;
     }
 
-    header>div>a>span {
+    header > div > a > span {
         color: #7FC7D9;
     }
 
-    header>div {
+    header > div {
         margin-left: 65vw;
         margin-top: 50px;
     }
 
-    header>nav>ul {
+    header > nav > ul {
         list-style: none;
         color: #EEEEEE;
         font-family: "Outfit Medium", sans-serif;
@@ -39,11 +39,11 @@
         display: none;
     }
 
-    header>nav>ul>li {
+    header > nav > ul > li {
         margin-right: 75px;
     }
 
-    header>nav {
+    header > nav {
         margin-right: 50px;
     }
 
@@ -57,7 +57,7 @@
         display: flex;
     }
 
-    header>button>img {
+    header > button > img {
         width: 45px;
         height: 45px;
     }

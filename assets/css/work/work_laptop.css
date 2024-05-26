@@ -15,7 +15,7 @@ footer {
     margin-top: 200px;
 }
 
-footer>hr  {
+footer > hr {
     background-color: #EEEEEE;
     height: 15px;
 }
@@ -25,12 +25,12 @@ footer>hr  {
     justify-content: space-between;
 }
 
-#socialContainer>ul {
+#socialContainer > ul {
     list-style: none;
     display: flex;
 }
 
-#socialContainer>ul>li {
+#socialContainer > ul > li {
     margin-right: 50px;
     font-family: "Outfit Thin", sans-serif;
 
@@ -45,7 +45,7 @@ footer>hr  {
     color: #EEEEEE;
 }
 
-#socialContainer>ul>li>a  {
+#socialContainer > ul > li > a {
     color: #EEEEEE;
     text-decoration: none;
 }
@@ -54,7 +54,7 @@ footer>hr  {
     padding-left: 35px;
 }
 
-#miniPicture  {
+#miniPicture {
     width: 200px;
     height: 200px;
     margin-top: auto;
@@ -69,7 +69,7 @@ footer>hr  {
 
 }
 
-#lets-work-together>span  {
+#lets-work-together > span {
     color: #7FC7D9;
 }
 
@@ -105,7 +105,7 @@ footer>hr  {
 }
 
 #FooterEmailCus {
-    font-family: "Outfit semiBold",sans-serif;
+    font-family: "Outfit semiBold", sans-serif;
     color: #EEEEEE;
     text-decoration: none;
     font-size: 2em;
@@ -133,39 +133,39 @@ header {
     padding-top: 20px;
 }
 
-header>div>a {
+header > div > a {
     text-decoration: none;
     font-family: "Outfit semiBold", sans-serif;
     color: #EEEEEE;
     font-size: 3em;
 }
 
-header>div>a>span {
+header > div > a > span {
     color: #7FC7D9;
 }
 
-header>div {
+header > div {
     margin-left: 100px;
 }
 
-header>nav>ul {
+header > nav > ul {
     list-style: none;
     display: flex;
     margin-top: 20px;
 }
 
-header>nav>ul>li>a {
+header > nav > ul > li > a {
     text-decoration: none;
     color: #EEEEEE;
     font-family: "Outfit Medium", sans-serif;
     font-size: 2em;
 }
 
-header>nav>ul>li {
+header > nav > ul > li {
     margin-right: 75px;
 }
 
-header>nav {
+header > nav {
     margin-right: 50px;
 }
 
@@ -182,10 +182,10 @@ main {
     color: #EEEEEE;
     font-family: "Outfit regular", sans-serif;
     font-size: 13em;
-        margin: 100px auto 250px 50px;
+    margin: 100px auto 250px 50px;
 }
 
-main>span {
+main > span {
     color: #7FC7D9;
 }
 
@@ -196,7 +196,7 @@ main>span {
     display: block;
 }
 
-#recentWorkContainer>hr {
+#recentWorkContainer > hr {
     width: 90vw;
     height: 5px;
     background-color: #7FC7D9;
@@ -205,7 +205,7 @@ main>span {
     border: none;
 }
 
-#recentWorkContainer>a {
+#recentWorkContainer > a {
     color: #EEEEEE;
     text-decoration: none;
     font-family: "Outfit Medium", sans-serif;
@@ -231,7 +231,7 @@ main>span {
     margin-top: 20vh;
 }
 
-#AssignmentContainer>hr {
+#AssignmentContainer > hr {
     width: 90vw;
     height: 5px;
     background-color: #7FC7D9;
@@ -240,7 +240,7 @@ main>span {
     border: none;
 }
 
-#AssignmentContainer>a {
+#AssignmentContainer > a {
     color: #EEEEEE;
     text-decoration: none;
     font-family: "Outfit Medium", sans-serif;

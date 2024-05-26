@@ -18,7 +18,7 @@
         display: block;
     }
 
-    #ShContainer>a>span {
+    #ShContainer > a > span {
         color: #7FC7D9;
     }
 
@@ -27,7 +27,7 @@
         display: none;
     }
 
-    .web-designer>span {
+    .web-designer > span {
         display: none;
     }
 
@@ -50,8 +50,8 @@
 
     #profileMainPicCus {
         margin-top: 10vh;
-        width: clamp(80vw,90vw,90vw);
-        height: clamp(50vh,70vh,70vh);
+        width: clamp(80vw, 90vw, 90vw);
+        height: clamp(50vh, 70vh, 70vh);
         border-radius: 300px;
     }
 
@@ -77,8 +77,8 @@
 
     #profileMainPicCus {
         margin-top: 10vh;
-        width: clamp(110vw,90vw,90vw);
-        height: clamp(50vh,70vh,70vh);
+        width: clamp(110vw, 90vw, 90vw);
+        height: clamp(50vh, 70vh, 70vh);
     }
 
     #profileMainPic {

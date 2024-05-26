@@ -24,7 +24,7 @@ header {
     padding-left: 40px;
 }
 
-header>button>img {
+header > button > img {
     width: 55px;
     height: 55px;
 }
@@ -39,9 +39,9 @@ header>button>img {
     display: none;
 }
 
-header>div>img {
-    width: clamp(50px,15vw,130px);
-    height: clamp(5px,15vw,40px);
+header > div > img {
+    width: clamp(50px, 15vw, 130px);
+    height: clamp(5px, 15vw, 40px);
     color: #D9D9D9;
 }
 
@@ -61,7 +61,7 @@ footer {
     margin-top: 200px;
 }
 
-footer>hr  {
+footer > hr {
     background-color: #EEEEEE;
     height: 15px;
 }
@@ -71,12 +71,12 @@ footer>hr  {
     justify-content: space-between;
 }
 
-#socialContainer>ul {
+#socialContainer > ul {
     list-style: none;
     display: flex;
 }
 
-#socialContainer>ul>li {
+#socialContainer > ul > li {
     margin-right: 50px;
     font-family: "Outfit Thin", sans-serif;
 
@@ -91,7 +91,7 @@ footer>hr  {
     color: #EEEEEE;
 }
 
-#socialContainer>ul>li>a  {
+#socialContainer > ul > li > a {
     color: #EEEEEE;
     text-decoration: none;
 }
@@ -100,7 +100,7 @@ footer>hr  {
     padding-left: 35px;
 }
 
-#miniPicture  {
+#miniPicture {
     width: 200px;
     height: 200px;
     margin-top: auto;
@@ -115,7 +115,7 @@ footer>hr  {
 
 }
 
-#lets-work-together>span  {
+#lets-work-together > span {
     color: #7FC7D9;
 }
 
@@ -151,7 +151,7 @@ footer>hr  {
 }
 
 #FooterEmailCus {
-    font-family: "Outfit semiBold",sans-serif;
+    font-family: "Outfit semiBold", sans-serif;
     color: #EEEEEE;
     text-decoration: none;
     font-size: 2em;
@@ -199,12 +199,12 @@ footer>hr  {
     margin-top: 20px;
 }
 
-section>main {
+section > main {
     display: flex;
     justify-content: flex-end;
 }
 
-#sideLine>img {
+#sideLine > img {
     display: flex;
     height: clamp(40px, 40vw, 650px);
 }
@@ -237,7 +237,7 @@ section>main {
     margin-top: 10vh;
 }
 
-#intro>span {
+#intro > span {
     color: #7FC7D9;
 }
 
@@ -261,12 +261,12 @@ section>main {
     margin-top: 20vh;
 }
 
-#recentWorkContainer>hr {
+#recentWorkContainer > hr {
     border: 2px solid #7FC7D9;
     margin-top: 5vh;
 }
 
-nav>div>a {
+nav > div > a {
     color: #EEEEEE;
     text-decoration: none;
     font-family: "Outfit Medium", sans-serif;

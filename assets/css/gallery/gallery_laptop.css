@@ -15,7 +15,7 @@ footer {
     margin-top: 200px;
 }
 
-footer>hr  {
+footer > hr {
     background-color: #EEEEEE;
     height: 15px;
 }
@@ -25,12 +25,12 @@ footer>hr  {
     justify-content: space-between;
 }
 
-#socialContainer>ul {
+#socialContainer > ul {
     list-style: none;
     display: flex;
 }
 
-#socialContainer>ul>li {
+#socialContainer > ul > li {
     margin-right: 50px;
     font-family: "Outfit Thin", sans-serif;
 
@@ -45,7 +45,7 @@ footer>hr  {
     color: #EEEEEE;
 }
 
-#socialContainer>ul>li>a  {
+#socialContainer > ul > li > a {
     color: #EEEEEE;
     text-decoration: none;
 }
@@ -54,7 +54,7 @@ footer>hr  {
     padding-left: 35px;
 }
 
-#miniPicture  {
+#miniPicture {
     width: 200px;
     height: 200px;
     margin-top: auto;
@@ -69,7 +69,7 @@ footer>hr  {
 
 }
 
-#lets-work-together>span  {
+#lets-work-together > span {
     color: #7FC7D9;
 }
 
@@ -105,7 +105,7 @@ footer>hr  {
 }
 
 #FooterEmailCus {
-    font-family: "Outfit semiBold",sans-serif;
+    font-family: "Outfit semiBold", sans-serif;
     color: #EEEEEE;
     text-decoration: none;
     font-size: 2em;
@@ -131,39 +131,39 @@ header {
     padding-top: 20px;
 }
 
-header>div>a {
+header > div > a {
     text-decoration: none;
     font-family: "Outfit semiBold", sans-serif;
     color: #EEEEEE;
     font-size: 3em;
 }
 
-header>div>a>span {
+header > div > a > span {
     color: #7FC7D9;
 }
 
-header>div {
+header > div {
     margin-left: 100px;
 }
 
-header>nav>ul {
+header > nav > ul {
     list-style: none;
     display: flex;
     margin-top: 20px;
 }
 
-header>nav>ul>li>a {
+header > nav > ul > li > a {
     text-decoration: none;
     color: #EEEEEE;
     font-family: "Outfit Medium", sans-serif;
     font-size: 2em;
 }
 
-header>nav>ul>li {
+header > nav > ul > li {
     margin-right: 75px;
 }
 
-header>nav {
+header > nav {
     margin-right: 50px;
 }
 
@@ -177,7 +177,7 @@ header>nav {
 
 /*image section*/
 
-section>div {
+section > div {
     display: flex;
     justify-content: space-around;
     margin-bottom: 80px;
@@ -200,11 +200,11 @@ section>div {
     text-align: center;
 }
 
-div>span {
+div > span {
     color: #7FC7D9;
 }
 
-#Gallery>hr {
+#Gallery > hr {
     height: 10px;
     width: 270px;
     background-color: #7FC7D9;

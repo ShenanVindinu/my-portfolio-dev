@@ -279,7 +279,7 @@ article {
 
 #ijseStudent {
     color: #EEEEEE;
-    font-family: "Outfit Light",sans-serif;
+    font-family: "Outfit Light", sans-serif;
     font-size: clamp(1rem, 5vw, 6rem);
 }
 
@@ -295,7 +295,7 @@ article {
 
 #and-my-skills-are > div {
     color: #EEEEEE;
-    font-family: "Outfit Medium",sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     font-size: clamp(1rem, 10vw, 6rem);
     width: 60vw;
     margin-left: auto;

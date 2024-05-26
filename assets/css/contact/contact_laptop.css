@@ -14,39 +14,39 @@ header {
     padding-top: 20px;
 }
 
-header>div>a {
+header > div > a {
     text-decoration: none;
     font-family: "Outfit semiBold", sans-serif;
     color: #EEEEEE;
     font-size: 3em;
 }
 
-header>div>a>span {
+header > div > a > span {
     color: #7FC7D9;
 }
 
-header>div {
+header > div {
     margin-left: 100px;
 }
 
-header>nav>ul {
+header > nav > ul {
     list-style: none;
     display: flex;
     margin-top: 20px;
 }
 
-header>nav>ul>li>a {
+header > nav > ul > li > a {
     text-decoration: none;
     color: #EEEEEE;
     font-family: "Outfit Medium", sans-serif;
     font-size: 2em;
 }
 
-header>nav>ul>li {
+header > nav > ul > li {
     margin-right: 75px;
 }
 
-header>nav {
+header > nav {
     margin-right: 50px;
     margin-left: 630px;
 }
@@ -65,7 +65,7 @@ footer {
     margin-top: 300px;
 }
 
-footer>hr  {
+footer > hr {
     background-color: #EEEEEE;
     height: 15px;
     width: 1350px;
@@ -76,12 +76,12 @@ footer>hr  {
     align-items: end;
 }
 
-#socialContainer>ul {
+#socialContainer > ul {
     list-style: none;
     display: flex;
 }
 
-#socialContainer>ul>li {
+#socialContainer > ul > li {
     margin-right: 50px;
     font-family: "Outfit Thin", sans-serif;
 
@@ -96,7 +96,7 @@ footer>hr  {
     color: #EEEEEE;
 }
 
-#socialContainer>ul>li>a  {
+#socialContainer > ul > li > a {
     color: #EEEEEE;
     text-decoration: none;
 }
@@ -109,7 +109,7 @@ footer>hr  {
     padding-left: 35px;
 }
 
-#miniPicture  {
+#miniPicture {
     width: 200px;
     height: 200px;
     padding-left: 7vw;
@@ -125,7 +125,7 @@ footer>hr  {
 
 }
 
-#lets-work-together>span  {
+#lets-work-together > span {
     color: #7FC7D9;
 }
 
@@ -157,7 +157,7 @@ footer>hr  {
 }
 
 #FooterEmailCus {
-    font-family: "Outfit semiBold",sans-serif;
+    font-family: "Outfit semiBold", sans-serif;
     color: #EEEEEE;
     text-decoration: none;
     font-size: 2em;
@@ -180,7 +180,7 @@ main {
     justify-content: space-between;
 }
 
-main>div {
+main > div {
     color: #EEEEEE;
     font-family: "Outfit regular", sans-serif;
     font-size: 6em;
@@ -189,7 +189,7 @@ main>div {
     margin-bottom: 200px;
 }
 
-main>div>hr {
+main > div > hr {
     height: 10px;
     width: 420px;
     background-color: #7FC7D9;
@@ -197,7 +197,7 @@ main>div>hr {
     border: none;
 }
 
-main>img {
+main > img {
     width: 580px;
     height: 550px;
     margin-top: 50px;
@@ -208,17 +208,17 @@ section {
     margin-bottom: 200px;
 }
 
-section>div {
+section > div {
     display: flex;
     justify-content: space-between;
     margin: 50px;
 }
 
-section>div>div {
+section > div > div {
     margin-top: -70px;
 }
 
-section>div>div>h1 {
+section > div > div > h1 {
     color: #EEEEEE;
     font-family: "Outfit Thin", sans-serif;
     font-size: 4em;
@@ -226,29 +226,29 @@ section>div>div>h1 {
     margin-left: 145px;
 }
 
-section>div>div>h1>span {
+section > div > div > h1 > span {
     color: #F24822;
 }
 
-section>div>div>h4 {
+section > div > div > h4 {
     color: #EEEEEE;
     font-family: "Outfit Thin", sans-serif;
     font-size: 3em;
     margin: 0;
 }
 
-section>div>div>hr {
+section > div > div > hr {
     height: 5px;
     background-color: #F24822;
     border: none;
 }
 
-section>div>div>div {
+section > div > div > div {
     margin-left: 140px;
     margin-top: 50px;
 }
 
-section>div>div>div>button {
+section > div > div > div > button {
     background-color: #7FC7D9;
     border: none;
     width: 250px;
@@ -260,7 +260,7 @@ section>div>div>div>button {
     cursor: pointer;
 }
 
-section>div>div>img {
+section > div > div > img {
     margin-top: 80px;
     margin-left: 230px;
 }
@@ -274,28 +274,28 @@ nav {
     margin: auto;
 }
 
-nav>h1 {
+nav > h1 {
     color: #EEEEEE;
     font-family: "Outfit regular", sans-serif;
     font-size: 3em;
 }
 
-nav>h1>span {
+nav > h1 > span {
     color: #F24822;
 }
 
-nav>div>a {
+nav > div > a {
     color: #EEEEEE;
     text-decoration: none;
     font-family: "Outfit semiBold", sans-serif;
     font-size: 10em;
 }
 
-nav>div>a>span {
+nav > div > a > span {
     color: #F24822;
 }
 
-nav>div>hr {
+nav > div > hr {
     height: 5px;
     background-color: #7FC7D9;
     margin-top: 50px;
