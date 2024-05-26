@@ -67,7 +67,7 @@ footer {
     margin-top: 200px;
 }
 
-footer>hr  {
+footer > hr {
     background-color: #EEEEEE;
     height: 15px;
 }
@@ -77,12 +77,12 @@ footer>hr  {
     justify-content: space-between;
 }
 
-#socialContainer>ul {
+#socialContainer > ul {
     list-style: none;
     display: flex;
 }
 
-#socialContainer>ul>li {
+#socialContainer > ul > li {
     margin-right: 50px;
     font-family: "Outfit Thin", sans-serif;
 
@@ -97,7 +97,7 @@ footer>hr  {
     color: #EEEEEE;
 }
 
-#socialContainer>ul>li>a  {
+#socialContainer > ul > li > a {
     color: #EEEEEE;
     text-decoration: none;
 }
@@ -106,7 +106,7 @@ footer>hr  {
     padding-left: 35px;
 }
 
-#miniPicture  {
+#miniPicture {
     width: 200px;
     height: 200px;
     margin-top: auto;
@@ -121,7 +121,7 @@ footer>hr  {
 
 }
 
-#lets-work-together>span  {
+#lets-work-together > span {
     color: #7FC7D9;
 }
 
@@ -157,7 +157,7 @@ footer>hr  {
 }
 
 #FooterEmailCus {
-    font-family: "Outfit semiBold",sans-serif;
+    font-family: "Outfit semiBold", sans-serif;
     color: #EEEEEE;
     text-decoration: none;
     font-size: 2em;
@@ -206,4 +206,38 @@ footer>hr  {
 
 #vindinuHr {
     width: 70vw;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+#whatIDoContainer {
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+
+#what-i-do {
+    font-family: "Outfit Medium", sans-serif;
+    font-size: clamp(5rem, 20vw, 6rem);
+    margin-left: 10vw;
+}
+
+#what-i-do > span {
+    color: #7FC7D9;
+}
+
+#paragraphIHelp {
+    font-family: "Outfit Light", sans-serif;
+    font-size: clamp(1rem, 20vw, 1.5rem);
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+#ShenanGreyScaleImg {
+    width: 40%;
+    height: auto;
 }
