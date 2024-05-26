@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+    #whatIDoesSubContainer {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        width: 40vw;
+        text-align: center;
+    }
+
+    .whatIDoesParagraphs {
+        margin-bottom: 20vh;
+    }
+
+    #DownArrowSkills {
+        display: none;
+    }
+
+    #and-my-skills-are > div {
+        margin-bottom: 20vh;
+    }
+}

@@ -76,4 +76,56 @@
         margin-left: auto;
     }
 
+    article {
+        flex-direction: column;
+    }
+
+    #ShenanGreyScaleImg {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+    }
+
+    #what-i-do {
+        text-align: center;
+    }
+
+    #paragraphIHelp {
+        margin-top: 15vh;
+        text-align: center;
+    }
+
+    #whatIDoesSubContainer {
+        width: 50vw;
+    }
+
+    #treesBg {
+        display: none;
+    }
+
+    #happyFace {
+        display: block;
+        margin-bottom: 30vh;
+        margin-top: 30vh;
+    }
+
+}
+
+@media (max-width: 376px) {
+
+    #whatIDoesSubContainer {
+        width: 110vw;
+    }
+
+    .threeImages {
+        width: 80vw;
+    }
+
+    body {
+        position: absolute;
+        overflow-x: clip !important;
+    }
+
 }
