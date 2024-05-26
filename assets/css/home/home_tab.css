@@ -32,7 +32,6 @@
     }
 
     .web-designer {
-        /*font-size: 15rem;*/
         font-size: clamp(12rem, 30vw, 15rem);
         line-height: 28vh;
     }
@@ -89,7 +88,7 @@
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 
     .web-designer:nth-child(1) {
         margin-left: 0;
@@ -110,5 +109,15 @@
     #webDesignerContainer2 {
         width: 80vw;
         padding: 0;
+    }
+
+    #webDesignerContainer {
+        margin-top: 5vh;
+        margin-left: 15vw;
+    }
+
+    body {
+        position: absolute;
+        overflow-x: clip !important;
     }
 }
