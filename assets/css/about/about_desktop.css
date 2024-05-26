@@ -175,3 +175,35 @@ footer>hr  {
     margin-bottom: 50px;
     text-align: center;
 }
+
+.Intro {
+    color: #EEEEEE;
+    font-family: "Outfit Black", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: clamp(5rem, 20vw, 20rem);
+    line-height: 85vh;
+}
+
+.Intro > div > span {
+    color: #7FC7D9;
+}
+
+.Intro > div > hr {
+    background-color: #7FC7D9;
+    height: 30px;
+    margin-top: clamp(-35vh, 50vh, -20vh);
+}
+
+#AMhr {
+    width: 30vw;
+}
+
+#ShenanHr {
+    width: 75vw;
+}
+
+#vindinuHr {
+    width: 70vw;
+}
