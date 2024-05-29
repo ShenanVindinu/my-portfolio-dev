@@ -1,0 +1,48 @@
+#hamPage {
+    background-color: #17181C;
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    margin-top: 87vh;
+    z-index: 1;
+    display: none;
+
+}
+
+#hamburgerButtonClose {
+    background-color: #17181C;
+    border: none;
+    margin-top: 3vh;
+    margin-left: 40px;
+    font-family: "Outfit Black", sans-serif;
+    color: white;
+    font-size: 4rem;
+}
+
+#hamPage > ul {
+    list-style: none;
+    font-family: "Outfit regular", sans-serif;
+    margin-top: 15vh;
+}
+
+#hamPage > ul > li > a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: xxx-large;
+}
+
+#hamPage > ul > li {
+    margin-top: 5vh;
+}
+
+#hamPage > ul > li > a > span {
+    color: #7FC7D9;
+}
+
+#hamPage > ul > li > hr {
+    height: 5px;
+    border: none;
+    background-color: #7FC7D9;
+    width: 20vw;
+    margin-left: 0;
+}

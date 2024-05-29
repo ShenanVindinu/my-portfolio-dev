@@ -18,10 +18,11 @@ header {
 #hamburgerButton {
     border: none;
     background-color: #17181c;
-    width: 55px;
-    height: 55px;
-    padding-top: 5px;
-    padding-left: 40px;
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 40px;
+    z-index: 1;
 }
 
 header > button > img {
