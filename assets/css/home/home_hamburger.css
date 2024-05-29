@@ -46,3 +46,37 @@
     width: 20vw;
     margin-left: 0;
 }
+
+@media (max-width: 768px) {
+
+    #hamPage {
+        width: 100vw;
+    }
+
+    #hamPage > ul > li > hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hamPage > ul > li {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 375px) {
+    #hamPage {
+        position: absolute;
+        width: 110vw;
+    }
+
+    #hamPage > ul > li > hr {
+        margin-right: 80vw;
+        width: 50vw;
+    }
+
+    #hamPage > ul > li {
+        text-align: left;
+    }
+
+}
