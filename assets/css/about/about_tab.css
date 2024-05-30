@@ -12,39 +12,24 @@
     header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        width: 100vw;
+        margin-top: 30px;
     }
 
-    header > div > a {
+    header > a {
         text-decoration: none;
         font-family: "Outfit semiBold", sans-serif;
         color: #EEEEEE;
         font-size: 3em;
+        margin-right: 30px;
     }
 
-    header > div > a > span {
+    header > a > span {
         color: #7FC7D9;
     }
 
-    header > div {
-        margin-left: 65vw;
-        margin-top: 50px;
-    }
-
-    header > nav > ul {
-        list-style: none;
-        color: #EEEEEE;
-        font-family: "Outfit Medium", sans-serif;
-        font-size: 2em;
-        display: none;
-    }
-
-    header > nav > ul > li {
-        margin-right: 75px;
-    }
-
     header > nav {
-        margin-right: 50px;
+        display: none;
     }
 
     #hamburgerButton {
@@ -52,9 +37,8 @@
         background-color: #17181c;
         width: 55px;
         height: 55px;
-        padding-top: 30px;
-        padding-left: 55px;
-        display: flex;
+        margin-left: 55px;
+        display: block;
     }
 
     header > button > img {
