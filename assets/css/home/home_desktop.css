@@ -232,7 +232,7 @@ section > main {
 
 #intro {
     color: #EEEEEE;
-    font-family: 'Outfit regular';
+    font-family: 'Outfit Black';
     font-size: clamp(2rem, 5vw, 5rem);
     margin-left: 5vw;
     margin-top: 10vh;
