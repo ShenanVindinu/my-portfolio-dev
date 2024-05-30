@@ -139,7 +139,7 @@ footer > hr {
     border-radius: 55px;
     width: 300px;
     height: 90px;
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     font-size: 2.7em;
     color: #17181C;
     cursor: pointer;
@@ -152,7 +152,7 @@ footer > hr {
 }
 
 #FooterEmailCus {
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     color: #EEEEEE;
     text-decoration: none;
     font-size: 2em;
@@ -174,7 +174,7 @@ footer > hr {
 /*Main Home*/
 .web-designer {
     color: #EEEEEE;
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     font-size: clamp(5rem, 13vw, 15rem);
     margin: -5px;
 }
