@@ -214,6 +214,10 @@ section > main {
     width: clamp(350px, 60vw, 950px);
 }
 
+#mobileHeroContainer {
+    display: none;
+}
+
 .brIntro {
     display: none;
 }
