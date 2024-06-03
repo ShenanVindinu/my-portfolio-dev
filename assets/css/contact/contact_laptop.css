@@ -9,24 +9,23 @@ body::-webkit-scrollbar {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding-top: 20px;
 }
 
-header > div > a {
-    text-decoration: none;
-    font-family: "Outfit semiBold", sans-serif;
-    color: #EEEEEE;
-    font-size: 3em;
+#hamburgerButton {
+    border: none;
+    background-color: #17181c;
+    width: 80px;
+    height: 80px;
+    margin-left: 5vw;
+    z-index: 1;
 }
 
-header > div > a > span {
-    color: #7FC7D9;
-}
-
-header > div {
-    margin-left: 100px;
+header > button > img {
+    width: 55px;
+    height: 55px;
 }
 
 header > nav > ul {
@@ -48,32 +47,39 @@ header > nav > ul > li {
 
 header > nav {
     margin-right: 50px;
-    margin-left: 630px;
 }
 
-#hamburgerButton {
+header > div > a {
+    text-decoration: none;
+    font-family: "Outfit semiBold", sans-serif;
+    color: #EEEEEE;
+    font-size: 3em;
+}
+
+header > div {
     display: none;
 }
 
-#enan {
-    color: #EEEEEE;
+header > div > a > span {
+    color: #7FC7D9;
 }
 
+
 footer {
-    display: block;
-    clear: both;
-    margin-top: 300px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
 }
 
 footer > hr {
     background-color: #EEEEEE;
     height: 15px;
-    width: 1350px;
 }
 
 #footerBottomSection {
     display: flex;
-    align-items: end;
+    justify-content: space-between;
 }
 
 #socialContainer > ul {
@@ -101,27 +107,22 @@ footer > hr {
     text-decoration: none;
 }
 
-#socialContainer {
-    padding-left: 65vw;
-}
-
 #versionTextContainer {
     padding-left: 35px;
 }
 
 #miniPicture {
-    width: 200px;
-    height: 200px;
-    padding-left: 7vw;
-    padding-top: 7vh;
+    max-width: 100%;
+    min-width: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #lets-work-together {
     font-family: "Outfit semiBold", sans-serif;
-    font-size: 6.5em;
+    font-size: clamp(2rem, 10vw, 6.5rem);
     color: #EEEEEE;
-    padding-left: 35px;
-    margin-bottom: 0;
+    width: 50vw;
 
 }
 
@@ -131,11 +132,15 @@ footer > hr {
 
 #lets_work_together_container {
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
 }
 
 #getInTouchButtonContainer {
-    padding-left: 41vw;
-    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 300px;
 }
 
 #getInTouchButtonCus {
@@ -144,160 +149,80 @@ footer > hr {
     border-radius: 55px;
     width: 300px;
     height: 90px;
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     font-size: 2.7em;
     color: #17181C;
     cursor: pointer;
 }
 
 #FooterArrow {
-    width: 300px;
+    width: 100px;
     padding-left: 56vw;
     padding-top: 30px;
 }
 
 #FooterEmailCus {
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     color: #EEEEEE;
     text-decoration: none;
-    font-size: 2em;
+    font-size: x-large;
 }
 
 #footerEmail_hr {
     height: 5px;
-    width: 400px;
+    width: 320px;
     background-color: #7FC7D9;
-    margin-left: 0;
+    border: none;
 }
 
 #FooterEmailContainer {
-    padding-left: 35px;
-    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 10vh;
 }
 
 main > div {
-    color: #EEEEEE;
-    font-family: "Outfit regular", sans-serif;
-    font-size: 6em;
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-bottom: 200px;
-}
-
-main > div > hr {
-    height: 10px;
-    width: 420px;
-    background-color: #7FC7D9;
-    margin: 5px;
-    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 main > img {
-    width: 580px;
-    height: 550px;
-    margin-top: 50px;
-    margin-right: 150px;
+    max-width: 45%;
 }
 
-section {
-    margin-bottom: 200px;
-}
-
-section > div {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px;
-}
-
-section > div > div {
-    margin-top: -70px;
-}
-
-section > div > div > h1 {
+.intro_text  {
+    line-height: 2.5;
+    text-decoration: underline;
+    text-decoration-color: #7FC7D9;
+    font-family: "Outfit regular",sans-serif;
     color: #EEEEEE;
-    font-family: "Outfit Thin", sans-serif;
-    font-size: 4em;
-    margin-bottom: 200px;
-    margin-left: 145px;
+    font-size: clamp(4rem, 20vw, 5vw);
+    text-decoration-thickness: 15px;
+    text-underline-offset: 20px;
 }
 
-section > div > div > h1 > span {
-    color: #F24822;
-}
+@media (max-width: 1300px) {
 
-section > div > div > h4 {
-    color: #EEEEEE;
-    font-family: "Outfit Thin", sans-serif;
-    font-size: 3em;
-    margin: 0;
-}
+    main {
+        flex-direction: column-reverse;
+    }
 
-section > div > div > hr {
-    height: 5px;
-    background-color: #F24822;
-    border: none;
-}
+    main > img {
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-section > div > div > div {
-    margin-left: 140px;
-    margin-top: 50px;
-}
+    .intro_text  {
+        text-align: center;
+        text-underline-offset: 35px;
+    }
 
-section > div > div > div > button {
-    background-color: #7FC7D9;
-    border: none;
-    width: 250px;
-    height: 70px;
-    border-radius: 50px;
-    color: #17181C;
-    font-family: "Outfit semiBold", sans-serif;
-    font-size: 2em;
-    cursor: pointer;
-}
-
-section > div > div > img {
-    margin-top: 80px;
-    margin-left: 230px;
-}
-
-nav {
-    width: 1400px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-nav > h1 {
-    color: #EEEEEE;
-    font-family: "Outfit regular", sans-serif;
-    font-size: 3em;
-}
-
-nav > h1 > span {
-    color: #F24822;
-}
-
-nav > div > a {
-    color: #EEEEEE;
-    text-decoration: none;
-    font-family: "Outfit semiBold", sans-serif;
-    font-size: 10em;
-}
-
-nav > div > a > span {
-    color: #F24822;
-}
-
-nav > div > hr {
-    height: 5px;
-    background-color: #7FC7D9;
-    margin-top: 50px;
-    margin-bottom: 70px;
 }
