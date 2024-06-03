@@ -66,12 +66,9 @@
         margin-left: 5vw;
     }
 
-}
-
-@media (max-width: 376px) {
     #hamPage {
         position: absolute;
-        width: 110vw;
+        width: 100vw;
     }
 
     #hamPage > ul > li > hr {
