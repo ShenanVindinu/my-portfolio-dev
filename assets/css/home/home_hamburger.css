@@ -13,7 +13,7 @@
     background-color: #17181C;
     border: none;
     margin-top: 3vh;
-    margin-left: 40px;
+    margin-left: 3vw;
     font-family: "Outfit Black", sans-serif;
     color: white;
     font-size: 4rem;
@@ -62,9 +62,13 @@
         text-align: center;
     }
 
+    #hamburgerButtonClose {
+        margin-left: 5vw;
+    }
+
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     #hamPage {
         position: absolute;
         width: 110vw;
