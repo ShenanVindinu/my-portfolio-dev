@@ -214,7 +214,7 @@ main > img {
     margin-top: 30vh;
 }
 
-#emailSection>img {
+#emailSection > img {
     height: 110vh;
 }
 
@@ -233,17 +233,17 @@ main > img {
 }
 
 #emailSection > div > h1 {
-    font-family: "Outfit Thin",sans-serif;
+    font-family: "Outfit Thin", sans-serif;
     color: #EEEEEE;
     font-size: xxx-large;
 }
 
-#emailSection > div > h1  > span {
+#emailSection > div > h1 > span {
     color: #ff253a;
 }
 
 #emailSection > div > h2 {
-    font-family: "Outfit regular",sans-serif;
+    font-family: "Outfit regular", sans-serif;
     color: #EEEEEE;
     font-size: x-large;
     line-height: 2.5;
@@ -257,11 +257,51 @@ main > img {
 #emailSectionButton {
     border: none;
     background-color: #7FC7D9;
-    font-family: "Outfit Medium",sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     font-size: x-large;
     width: 35vw;
     height: 10vh;
     border-radius: 35px;
+}
+
+#SocialsNav {
+    margin-top: 30vh;
+    margin-bottom: 50vh;
+}
+
+nav > div {
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav > div > h1 {
+    font-family: "Outfit regular", sans-serif;
+    font-size: xxx-large;
+    color: #EEEEEE;
+}
+
+nav > div > h1 > span {
+    color: #ff253a;
+}
+
+nav > div > hr {
+    height: 2px;
+    background-color: #7FC7D9;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: none;
+}
+
+nav > div > a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-family: "Outfit Medium", sans-serif;
+    font-size: clamp(3rem, 18vw, 15rem);
+}
+
+nav > div > a > span {
+    color: #ff253a;
 }
 
 @media (max-width: 1300px) {
