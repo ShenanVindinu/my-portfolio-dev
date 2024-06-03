@@ -66,6 +66,7 @@ header > div > a > span {
     color: #7FC7D9;
 }
 
+
 footer {
     width: 90vw;
     margin-left: auto;
@@ -90,7 +91,7 @@ footer > hr {
 
 #socialContainer > ul > li {
     margin-right: 50px;
-    font-family: 'Outfit Thin', sans-serif;
+    font-family: "Outfit Thin", sans-serif;
 
 }
 
@@ -99,7 +100,7 @@ footer > hr {
 }
 
 .versionText, #socialText {
-    font-family: 'Outfit Thin', sans-serif;
+    font-family: "Outfit Thin", sans-serif;
     color: #EEEEEE;
 }
 
@@ -113,17 +114,17 @@ footer > hr {
 }
 
 #miniPicture {
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    min-width: 15%;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 #lets-work-together {
-    font-family: 'Outfit SemiBold', sans-serif;
+    font-family: "Outfit semiBold", sans-serif;
     font-size: clamp(2rem, 10vw, 6.5rem);
     color: #EEEEEE;
-    padding-left: 35px;
+    width: 50vw;
 
 }
 
@@ -133,7 +134,7 @@ footer > hr {
 
 #lets_work_together_container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 5vh;
 }
 
@@ -150,28 +151,28 @@ footer > hr {
     border-radius: 55px;
     width: 300px;
     height: 90px;
-    font-family: 'Outfit SemiBold', sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     font-size: 2.7em;
     color: #17181C;
     cursor: pointer;
 }
 
 #FooterArrow {
-    width: 150px;
+    width: 100px;
     padding-left: 56vw;
     padding-top: 30px;
 }
 
 #FooterEmailCus {
-    font-family: 'Outfit SemiBold', sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     color: #EEEEEE;
     text-decoration: none;
-    font-size: 2em;
+    font-size: x-large;
 }
 
 #footerEmail_hr {
     height: 5px;
-    width: 380px;
+    width: 320px;
     background-color: #7FC7D9;
     border: none;
 }
@@ -181,6 +182,7 @@ footer > hr {
     margin-bottom: 50px;
     text-align: center;
 }
+
 
 .Intro {
     color: #EEEEEE;
