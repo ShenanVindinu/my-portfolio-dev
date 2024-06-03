@@ -18,7 +18,7 @@
 
     header > a {
         text-decoration: none;
-        font-family: 'Outfit SemiBold',sans-serif;
+        font-family: 'Outfit SemiBold', sans-serif;
         color: #EEEEEE;
         font-size: 3em;
         margin-right: 30px;
@@ -32,22 +32,23 @@
         display: none;
     }
 
+    header > div {
+        display: block;
+        margin-right: 3vw;
+    }
+
     #hamburgerButton {
         border: none;
         background-color: #17181c;
         width: 55px;
         height: 55px;
-        margin-left: 55px;
+        margin-left: 5vw;
         display: block;
     }
 
     header > button > img {
         width: 45px;
         height: 45px;
-    }
-
-    #enan {
-        display: none;
     }
 
     #socialContainer {

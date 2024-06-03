@@ -22,7 +22,9 @@
 #hamPage > ul {
     list-style: none;
     font-family: "Outfit regular", sans-serif;
-    margin-top: 15vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #hamPage > ul > li > a {

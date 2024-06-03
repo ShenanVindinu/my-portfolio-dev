@@ -11,24 +11,23 @@ body::-webkit-scrollbar {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
-header > a {
-    text-decoration: none;
-    font-family: 'Outfit SemiBold', sans-serif;
-    color: #EEEEEE;
-    font-size: 3em;
+#hamburgerButton {
+    border: none;
+    background-color: #17181c;
+    width: 80px;
+    height: 80px;
+    margin-left: 5vw;
+    z-index: 1;
 }
 
-header > a > span {
-    color: #7FC7D9;
-}
-
-header > a {
-    margin-left: 100px;
+header > button > img {
+    width: 55px;
+    height: 55px;
 }
 
 header > nav > ul {
@@ -40,7 +39,7 @@ header > nav > ul {
 header > nav > ul > li > a {
     text-decoration: none;
     color: #EEEEEE;
-    font-family: 'Outfit Medium', sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     font-size: 2em;
 }
 
@@ -52,12 +51,19 @@ header > nav {
     margin-right: 50px;
 }
 
-#hamburgerButton {
+header > div > a {
+    text-decoration: none;
+    font-family: "Outfit semiBold", sans-serif;
+    color: #EEEEEE;
+    font-size: 3em;
+}
+
+header > div {
     display: none;
 }
 
-#enan {
-    color: #EEEEEE;
+header > div > a > span {
+    color: #7FC7D9;
 }
 
 footer {
