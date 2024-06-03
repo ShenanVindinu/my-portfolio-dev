@@ -61,3 +61,10 @@
     }
 
 }
+
+@media (max-width: 376px) {
+    #emailSection>img {
+        width: 5vw;
+    }
+
+}
