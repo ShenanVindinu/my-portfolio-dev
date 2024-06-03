@@ -28,7 +28,9 @@
 }
 
 #hamPage > ul > li > a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: #7FC7D9;
     color: #EEEEEE;
     font-size: xxx-large;
 }
@@ -39,14 +41,6 @@
 
 #hamPage > ul > li > a > span {
     color: #7FC7D9;
-}
-
-#hamPage > ul > li > hr {
-    height: 5px;
-    border: none;
-    background-color: #7FC7D9;
-    width: 20vw;
-    margin-left: 0;
 }
 
 @media (max-width: 768px) {
