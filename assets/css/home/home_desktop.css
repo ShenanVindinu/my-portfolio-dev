@@ -186,14 +186,12 @@ footer > hr {
 #webDesignerContainer {
     margin-left: auto;
     margin-right: auto;
-    /*width: 90vw;*/
 }
 
 #webDesignerContainer2 {
     display: grid;
     justify-items: center;
     justify-content: center;
-    padding-right: 2vw;
 }
 
 #sideLine {

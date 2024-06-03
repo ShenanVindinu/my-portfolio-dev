@@ -32,7 +32,7 @@
     }
 
     .web-designer {
-        font-size: clamp(12rem, 30vw, 15rem);
+        font-size: clamp(10rem, 30vw, 15rem);
         line-height: 28vh;
     }
 
@@ -49,15 +49,13 @@
     }
 
     #profileMainPicCus {
-        margin-top: 10vh;
-        width: clamp(80vw, 90vw, 90vw);
-        height: clamp(50vh, 70vh, 70vh);
+        margin-top: 20vh;
         border-radius: 300px;
     }
 
     #profileMainPic {
         position: absolute;
-        padding-left: 6vw;
+        max-width: 100%;
     }
 
     #socialContainer {
@@ -70,21 +68,6 @@
         margin-left: auto;
     }
 
-
-}
-
-@media (max-width: 535px) {
-
-    #profileMainPicCus {
-        margin-top: 10vh;
-        width: clamp(110vw, 90vw, 90vw);
-        height: clamp(50vh, 70vh, 70vh);
-    }
-
-    #profileMainPic {
-        position: absolute;
-        padding-left: 0;
-    }
 
 }
 
@@ -102,22 +85,22 @@
         margin-left: 0;
     }
 
-    #profileMainPic {
-        margin: 0;
-    }
-
-    #webDesignerContainer2 {
-        width: 80vw;
-        padding: 0;
-    }
-
-    #webDesignerContainer {
-        margin-top: 5vh;
-        margin-left: 15vw;
-    }
-
     body {
-        position: absolute;
+        position: relative;
         overflow-x: clip !important;
+    }
+
+    #profileMainPic {
+        padding-left: 0;
+    }
+
+    #profileMainPicCus {
+        height: clamp(200px, 100vw, 800px);
+        width: clamp(350px, 100vw, 950px);
+        margin-top: 15vh;
+    }
+
+    #hamburgerButton {
+        margin-left: 20px;
     }
 }
