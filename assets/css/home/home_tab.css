@@ -58,6 +58,10 @@
         max-width: 100%;
     }
 
+    #intro {
+        margin-top: 5vh;
+    }
+
     #socialContainer {
         display: none;
     }

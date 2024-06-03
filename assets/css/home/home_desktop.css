@@ -233,7 +233,7 @@ section > main {
     font-family: 'Outfit regular';
     font-size: clamp(2rem, 5vw, 5rem);
     margin-left: 5vw;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 #intro > span {
