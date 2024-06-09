@@ -58,10 +58,6 @@
         text-align: center;
     }
 
-    #hamburgerButtonClose {
-        margin-left: 3vw;
-    }
-
     #hamPage {
         position: absolute;
         width: 100vw;
