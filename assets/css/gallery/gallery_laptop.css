@@ -184,14 +184,17 @@ footer > hr {
 /*image section*/
 
 #Images {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 80vw;
-    justify-content: space-evenly;
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     gap: 100px;
+}
+
+#Images > img  {
+    max-width: 100%;
 }
 
 #Gallery {

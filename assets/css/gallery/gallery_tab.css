@@ -61,4 +61,15 @@
         position: absolute;
     }
 
+    #Images {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        justify-content: space-evenly;
+        margin-bottom: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 100px;
+    }
+
 }
