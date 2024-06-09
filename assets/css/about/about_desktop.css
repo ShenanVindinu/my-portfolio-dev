@@ -53,7 +53,7 @@ header > nav {
 
 header > div > a {
     text-decoration: none;
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     color: #EEEEEE;
     font-size: 3em;
 }
@@ -121,7 +121,7 @@ footer > hr {
 }
 
 #lets-work-together {
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     font-size: clamp(2rem, 10vw, 6.5rem);
     color: #EEEEEE;
     width: 50vw;
@@ -186,7 +186,7 @@ footer > hr {
 
 .Intro {
     color: #EEEEEE;
-    font-family: 'Outfit Black', sans-serif;
+    font-family: "Outfit Black", sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -233,7 +233,7 @@ article {
 }
 
 #what-i-do {
-    font-family: 'Outfit Medium', sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     font-size: clamp(3rem, 5vw, 6rem);
 }
 
@@ -242,7 +242,7 @@ article {
 }
 
 #paragraphIHelp {
-    font-family: 'Outfit Light', sans-serif;
+    font-family: "Outfit Light", sans-serif;
     font-size: clamp(1rem, 5vw, 1.5rem);
     margin-top: 5vh;
 }
@@ -271,7 +271,7 @@ article {
 
 #also {
     color: #EEEEEE;
-    font-family: 'Outfit Medium', sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     margin-left: 5vw;
     font-size: 3rem;
 }
@@ -287,7 +287,7 @@ article {
 
 #ijseStudent {
     color: #EEEEEE;
-    font-family: 'Outfit Light', sans-serif;
+    font-family: "Outfit Light", sans-serif;
     font-size: clamp(1rem, 5vw, 6rem);
 }
 
@@ -303,7 +303,7 @@ article {
 
 #and-my-skills-are > div {
     color: #EEEEEE;
-    font-family: 'Outfit Medium', sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     font-size: clamp(1rem, 10vw, 6rem);
     width: 60vw;
     margin-left: auto;
@@ -345,7 +345,7 @@ article {
 }
 
 #SE {
-    font-family: 'Outfit Medium', sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     color: #EEEEEE;
     font-size: clamp(1rem, 8vw, 6rem);
     width: 90vw;
@@ -382,7 +382,7 @@ article {
 }
 
 #whatIBring {
-    font-family: 'Outfit Medium', sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     color: #EEEEEE;
     font-size: clamp(1rem, 8vw, 7rem);
     width: 90vw;
@@ -397,7 +397,7 @@ article {
 }
 
 #what-i-does {
-    font-family: 'Outfit Medium', sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     color: #EEEEEE;
     font-size: clamp(4rem, 20vw, 20rem);
     text-align: center;
@@ -423,7 +423,7 @@ article {
 
 .ThreeImgHeadlines {
     color: #EEEEEE;
-    font-family: 'Outfit Medium', sans-serif;
+    font-family: "Outfit Medium", sans-serif;
     font-size: xxx-large;
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -434,7 +434,7 @@ article {
 }
 
 .whatIDoesParagraphs {
-    font-family: 'Outfit regular', sans-serif;
+    font-family: "Outfit regular", sans-serif;
     color: #EEEEEE;
     font-size: xx-large;
 }

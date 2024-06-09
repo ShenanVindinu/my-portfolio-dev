@@ -52,7 +52,7 @@ header > nav {
 
 header > div > a {
     text-decoration: none;
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     color: #EEEEEE;
     font-size: 3em;
 }
@@ -120,7 +120,7 @@ footer > hr {
 }
 
 #lets-work-together {
-    font-family: "Outfit semiBold", sans-serif;
+    font-family: "Outfit SemiBold", sans-serif;
     font-size: clamp(2rem, 10vw, 6.5rem);
     color: #EEEEEE;
     width: 50vw;
