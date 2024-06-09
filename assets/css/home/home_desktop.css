@@ -288,8 +288,9 @@ nav > div > a {
     border: none;
     border-radius: 45px;
     font-family: "Outfit Medium", sans-serif;
-    font-size: clamp(2rem, 5vw, 2.5rem);
+    font-size: xx-large;
     cursor: pointer;
+    color: #17181C;
 }
 
 #moreWorkButtonContainer {
