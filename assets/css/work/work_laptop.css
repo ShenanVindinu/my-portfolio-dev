@@ -42,6 +42,13 @@ header > nav > ul > li > a {
     font-size: 2em;
 }
 
+header > nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #74C0FC;
+    text-underline-offset: 20px;
+}
+
+
 header > nav > ul > li {
     margin-right: 75px;
 }
