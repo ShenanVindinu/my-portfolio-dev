@@ -7,8 +7,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-/*header*/
-
 header {
     display: flex;
     align-items: center;
@@ -237,7 +235,7 @@ section > main {
     font-family: "Outfit regular",sans-serif;
     font-size: clamp(2rem, 5vw, 5rem);
     margin-left: 5vw;
-    margin-top: 20vh;
+    margin-top: 30vh;
 }
 
 #intro > span {
