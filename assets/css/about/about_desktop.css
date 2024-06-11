@@ -190,6 +190,22 @@ footer > hr {
     line-height: 85vh;
 }
 
+.Intro > div:nth-child(3) {
+    text-decoration: underline;
+    text-decoration-color: #7FC7D9;
+
+}
+
+.Intro > div:nth-child(8) {
+    text-decoration: underline;
+    text-decoration-color: #7FC7D9;
+}
+
+.Intro > div:nth-child(9) {
+    text-decoration: underline;
+    text-decoration-color: #7FC7D9;
+}
+
 .Intro > div > span {
     color: #7FC7D9;
 }
