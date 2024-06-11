@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../assets/css/gallery/gallery_laptop.css">
     <link rel="stylesheet" href="../assets/css/gallery/gallery_tab.css">
     <link rel="stylesheet" href="../assets/css/hamburger_menu.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -111,7 +112,7 @@
 
     <hr>
 
-    <div id="lets_work_together_container">
+    <div data-aos="zoom-in-up" id="lets_work_together_container">
         <img id="miniPicture" src="../assets/images/Mini%20Profile%20Pic.png" title="shenan vindinu mini profile pic"
              alt="shenan-mini-profile-pic"/>
         <h3 id="lets-work-together">Let's Work <span>together!</span></h3>
@@ -130,7 +131,8 @@
          alt="mail-me-arrow"/>
 
 
-    <div id="FooterEmailContainer">
+    <div data-aos="fade-up"
+         data-aos-duration="1000" id="FooterEmailContainer">
         <a id="FooterEmailCus" href="mailto: #shenanvindinu@gmail.com">shenanvindinu@gmail.com</a>
         <hr id="footerEmail_hr">
     </div>
@@ -165,6 +167,10 @@
 </footer>
 
 <script src="../assets/lib/jquery-3.7.1.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="../assets/Js/HamburgerMenu.js"></script>
 </body>
 </html>
