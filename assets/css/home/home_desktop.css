@@ -134,7 +134,7 @@ footer > hr {
 }
 
 #getInTouchButtonCus {
-    background-color: #7FC7D9;
+    background-color: #74C0FC;
     border: none;
     border-radius: 55px;
     width: 300px;
@@ -143,6 +143,10 @@ footer > hr {
     font-size: xx-large;
     color: #17181C;
     cursor: pointer;
+}
+
+#getInTouchButtonCus:hover {
+    background-color: #7FC7D9;
 }
 
 #FooterArrow {
@@ -282,7 +286,7 @@ nav > div > a {
 }
 
 #moreWorkButtonCus {
-    background-color: #7FC7D9;
+    background-color: #74C0FC;
     width: 225px;
     height: 80px;
     border: none;
@@ -291,6 +295,10 @@ nav > div > a {
     font-size: xx-large;
     cursor: pointer;
     color: #17181C;
+}
+
+#moreWorkButtonCus:hover {
+    background-color: #ff253a;
 }
 
 #moreWorkButtonContainer {
