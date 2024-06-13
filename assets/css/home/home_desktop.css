@@ -303,6 +303,7 @@ nav > div > a:hover {
     font-size: xx-large;
     cursor: pointer;
     color: #17181C;
+    transition: background-color 1s;
 }
 
 #moreWorkButtonCus:hover {

@@ -90,6 +90,10 @@
         max-width: 100%;
     }
 
+    #intro > div {
+        line-height: 15vh;
+    }
+
 
 }
 
@@ -102,5 +106,9 @@
 
     #hamburgerButton {
         margin-left: 10px;
+    }
+
+    #intro > div {
+        line-height: 10vh;
     }
 }
