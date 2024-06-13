@@ -148,7 +148,7 @@ footer > hr {
 }
 
 #getInTouchButtonCus {
-    background-color: #7FC7D9;
+    background-color: #74C0FC;
     border: none;
     border-radius: 55px;
     width: 300px;
@@ -157,6 +157,11 @@ footer > hr {
     font-size: xx-large;
     color: #17181C;
     cursor: pointer;
+    transition: background-color 1s;
+}
+
+#getInTouchButtonCus:hover {
+    background-color: #ff253a;
 }
 
 #FooterArrow {

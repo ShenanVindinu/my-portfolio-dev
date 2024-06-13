@@ -137,10 +137,11 @@ footer > hr {
     font-size: xx-large;
     color: #17181C;
     cursor: pointer;
+    transition: background-color 1s;
 }
 
 #getInTouchButtonCus:hover {
-    background-color: #7FC7D9;
+    background-color: #ff253a;
 }
 
 #FooterArrow {
