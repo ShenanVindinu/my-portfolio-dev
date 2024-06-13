@@ -232,14 +232,23 @@ section > main {
 
 #intro {
     color: #EEEEEE;
-    font-family: "Outfit regular",sans-serif;
-    font-size: clamp(2rem, 5vw, 5rem);
     margin-left: 5vw;
     margin-top: 30vh;
 }
 
-#intro > span {
+#intro > div {
+    font-family: "Outfit regular", sans-serif;
+    line-height: 25vh;
+    font-size: clamp(2rem, 5vw, 5rem);
+    transition: font-size 1s;
+}
+
+#intro > div > span {
     color: #7FC7D9;
+}
+
+#intro > div:hover {
+    font-size: clamp(2rem, 7vw, 6rem);
 }
 
 #recentWorkHr {

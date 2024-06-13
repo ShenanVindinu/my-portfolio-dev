@@ -17,6 +17,7 @@
     font-family: "Outfit Black", sans-serif;
     color: white;
     font-size: 4rem;
+    transition: color 1s;
 }
 
 #hamburgerButtonClose:hover {
