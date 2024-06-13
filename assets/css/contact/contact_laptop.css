@@ -207,12 +207,13 @@ main > img {
 .intro_text {
     line-height: 2.5;
     text-decoration: underline;
-    text-decoration-color: #7FC7D9;
+    text-decoration-color: #ff253a;
     font-family: "Outfit regular", sans-serif;
     color: #EEEEEE;
     font-size: clamp(4rem, 20vw, 5vw);
     text-decoration-thickness: 15px;
     text-underline-offset: 20px;
+    cursor: default;
 }
 
 #emailSection {
@@ -230,6 +231,7 @@ main > img {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 8vh;
 }
 
 #emailSection > div > img {
@@ -266,9 +268,14 @@ main > img {
     background-color: #7FC7D9;
     font-family: "Outfit Medium", sans-serif;
     font-size: x-large;
-    width: 35vw;
+    width: 30vw;
     height: 10vh;
     border-radius: 35px;
+    transition: background-color 1s;
+}
+
+#emailSectionButton:hover {
+    background-color: #ff253a;
 }
 
 #SocialsNav {
@@ -305,7 +312,13 @@ nav > div > a {
     text-decoration: none;
     font-family: "Outfit Medium", sans-serif;
     font-size: clamp(3rem, 18vw, 15rem);
+    transition: font-size 1s;
 }
+
+nav > div > a:hover {
+    font-size: clamp(3rem, 18vw, 17rem);
+}
+
 
 nav > div > a > span {
     color: #ff253a;
