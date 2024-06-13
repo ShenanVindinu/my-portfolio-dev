@@ -272,6 +272,11 @@ nav > div > a {
     text-decoration: none;
     font-family: "Outfit Medium", sans-serif;
     font-size: clamp(5rem, 20vw, 15rem);
+    transition: font-size 1s;
+}
+
+nav > div > a:hover {
+    font-size: clamp(5rem, 20vw, 16rem);
 }
 
 .redUnderline {

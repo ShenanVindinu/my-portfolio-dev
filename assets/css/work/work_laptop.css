@@ -222,6 +222,11 @@ main > span {
     text-decoration: none;
     font-family: "Outfit Medium", sans-serif;
     font-size: clamp(5rem, 20vw, 15rem);
+    transition: font-size 1s;
+}
+
+#recentWorkContainer > a:hover {
+    font-size: clamp(5rem, 20vw, 16rem);
 }
 
 .redUnderline {
@@ -257,6 +262,12 @@ main > span {
     text-decoration: none;
     font-family: "Outfit Medium", sans-serif;
     font-size: clamp(4rem, 13vw, 15rem);
+    transition: font-size 1s;
+}
+
+#AssignmentContainer > a:hover {
+    color: #BAD7E9;
+    font-size: clamp(4rem, 12vw, 15rem);
 }
 
 .gitButton {
