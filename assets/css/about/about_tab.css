@@ -1,14 +1,5 @@
 @media (max-width: 768px) {
 
-    body {
-        background-color: #17181C;
-        overflow-x: hidden;
-    }
-
-    body::-webkit-scrollbar {
-        display: none;
-    }
-
     header {
         display: flex;
         justify-content: space-between;
@@ -109,7 +100,6 @@
     }
 
     body {
-        position: absolute;
         overflow-x: clip !important;
     }
 
