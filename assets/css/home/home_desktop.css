@@ -1,0 +1,317 @@
+body {
+    background-color: #17181C;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hamburgerButton {
+    border: none;
+    background-color: #17181c;
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 5vw;
+    z-index: 1;
+}
+
+header > button > img {
+    width: 55px;
+    height: 55px;
+}
+
+#headerLineSection {
+    padding-right: 7vw;
+    position: relative;
+    bottom: 10px;
+}
+
+#ShContainer {
+    display: none;
+}
+
+header > div > img {
+    width: clamp(50px, 15vw, 130px);
+    height: clamp(5px, 15vw, 40px);
+    color: #D9D9D9;
+}
+
+#shenanVindinu {
+    font-family: "Outfit regular", sans-serif;
+    color: #EEEEEE;
+    font-size: clamp(0.5rem, 3vw, 1.5rem);
+    padding: 20px 0 0 0;
+    position: relative;
+    right: 20px;
+}
+
+footer {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+footer > hr {
+    background-color: #EEEEEE;
+    height: 15px;
+}
+
+#footerBottomSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#socialContainer > ul {
+    list-style: none;
+    display: flex;
+}
+
+#socialContainer > ul > li {
+    margin-right: 50px;
+    font-family: "Outfit Thin", sans-serif;
+
+}
+
+#socialText {
+    padding-left: 40px;
+}
+
+.versionText, #socialText {
+    font-family: "Outfit Thin", sans-serif;
+    color: #EEEEEE;
+}
+
+#socialContainer > ul > li > a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+#miniPicture {
+    max-width: 100%;
+    min-width: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#lets-work-together {
+    font-family: "Outfit SemiBold", sans-serif;
+    font-size: clamp(2rem, 10vw, 6.5rem);
+    color: #EEEEEE;
+    width: 50vw;
+
+}
+
+#lets-work-together > span {
+    color: #7FC7D9;
+}
+
+#lets_work_together_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+#getInTouchButtonContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 300px;
+}
+
+#getInTouchButtonCus {
+    background-color: #74C0FC;
+    border: none;
+    border-radius: 55px;
+    width: 300px;
+    height: 90px;
+    font-family: "Outfit SemiBold", sans-serif;
+    font-size: xx-large;
+    color: #17181C;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+#getInTouchButtonCus:hover {
+    background-color: #ff253a;
+}
+
+#FooterArrow {
+    width: 100px;
+    padding-left: 56vw;
+    padding-top: 30px;
+}
+
+#FooterEmailCus {
+    font-family: "Outfit SemiBold", sans-serif;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#footerEmail_hr {
+    height: 5px;
+    width: 320px;
+    background-color: #7FC7D9;
+    border: none;
+}
+
+#FooterEmailContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/*Main Home*/
+.web-designer {
+    color: #EEEEEE;
+    font-family: "Outfit SemiBold", sans-serif;
+    font-size: clamp(5rem, 13vw, 15rem);
+    margin: -5px;
+}
+
+.web-designer:nth-child(2) {
+    color: #7FC7D9;
+}
+
+#webDesignerContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#webDesignerContainer2 {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#sideLine {
+    margin-top: 20px;
+}
+
+section > main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sideLine > img {
+    display: flex;
+    height: clamp(40px, 40vw, 650px);
+}
+
+#profileMainPicCus {
+    /*height="800px" width="950px"*/
+    height: clamp(200px, 50vw, 800px);
+    width: clamp(350px, 60vw, 950px);
+}
+
+#mobileHeroContainer {
+    display: none;
+}
+
+.brIntro {
+    display: none;
+}
+
+#profileMainPic {
+    position: absolute;
+    padding-left: 20vw;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#intro {
+    color: #EEEEEE;
+    margin-left: 5vw;
+    margin-top: 30vh;
+}
+
+#intro > div {
+    font-family: "Outfit regular", sans-serif;
+    line-height: 25vh;
+    font-size: clamp(2rem, 5vw, 5rem);
+    transition: font-size 1s;
+}
+
+#intro > div > span {
+    color: #7FC7D9;
+}
+
+#intro > div:hover {
+    font-size: clamp(2rem, 7vw, 6rem);
+}
+
+#recentWorkHr {
+    background-color: #EEEEEE;
+    height: 15px;
+    width: 90vw;
+
+}
+
+#recentWorkContainer {
+    display: block;
+    width: 90vw;
+    margin: auto;
+}
+
+#recent-work {
+    color: #7FC7D9;
+    font-family: "Outfit regular", sans-serif;
+    font-size: 1.5em;
+    margin-top: 20vh;
+}
+
+#recentWorkContainer > hr {
+    border: 2px solid #7FC7D9;
+    margin-top: 5vh;
+}
+
+nav > div > a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-family: "Outfit Medium", sans-serif;
+    font-size: clamp(5rem, 20vw, 15rem);
+    transition: font-size 1s;
+}
+
+nav > div > a:hover {
+    font-size: clamp(5rem, 20vw, 16rem);
+}
+
+.redUnderline {
+    margin-top: 15px;
+    width: 70vw;
+}
+
+#moreWorkButtonCus {
+    background-color: #74C0FC;
+    width: 225px;
+    height: 80px;
+    border: none;
+    border-radius: 45px;
+    font-family: "Outfit Medium", sans-serif;
+    font-size: xx-large;
+    cursor: pointer;
+    color: #17181C;
+    transition: background-color 1s;
+}
+
+#moreWorkButtonCus:hover {
+    background-color: #ff253a;
+}
+
+#moreWorkButtonContainer {
+    width: 215px;
+    margin: 10vh auto 25vh;
+}

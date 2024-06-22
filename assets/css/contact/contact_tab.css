@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    body {
+        background-color: #17181C;
+        overflow-x: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        margin-top: 30px;
+    }
+
+    header > a {
+        text-decoration: none;
+        font-family: 'Outfit SemiBold', sans-serif;
+        color: #EEEEEE;
+        font-size: 3em;
+        margin-right: 30px;
+    }
+
+    header > a > span {
+        color: #7FC7D9;
+    }
+
+    header > nav {
+        display: none;
+    }
+
+    header > div {
+        display: block;
+        margin-right: 3vw;
+    }
+
+    #hamburgerButton {
+        border: none;
+        background-color: #17181c;
+        width: 55px;
+        height: 55px;
+        margin-left: 5vw;
+        display: block;
+    }
+
+    header > button > img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #socialContainer {
+        display: none;
+    }
+
+    #versionTextContainer {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 376px) {
+    #emailSection > img {
+        width: 5vw;
+    }
+
+}

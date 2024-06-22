@@ -1,0 +1,482 @@
+
+body {
+    background-color: #17181C;
+    overflow-x: clip;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#hamburgerButton {
+    border: none;
+    background-color: #17181c;
+    width: 80px;
+    height: 80px;
+    margin-left: 5vw;
+    z-index: 1;
+}
+
+header > button > img {
+    width: 55px;
+    height: 55px;
+}
+
+header > nav > ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-family: "Outfit Medium", sans-serif;
+    font-size: 2em;
+}
+
+header > nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #74C0FC;
+    text-underline-offset: 20px;
+}
+
+header > nav > ul > li {
+    margin-right: 75px;
+}
+
+header > nav {
+    margin-right: 50px;
+}
+
+header > div > a {
+    text-decoration: none;
+    font-family: "Outfit SemiBold", sans-serif;
+    color: #EEEEEE;
+    font-size: 3em;
+}
+
+header > div {
+    display: none;
+}
+
+header > div > a > span {
+    color: #7FC7D9;
+}
+
+
+footer {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+footer > hr {
+    background-color: #EEEEEE;
+    height: 15px;
+}
+
+#footerBottomSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#socialContainer > ul {
+    list-style: none;
+    display: flex;
+}
+
+#socialContainer > ul > li {
+    margin-right: 50px;
+    font-family: "Outfit Thin", sans-serif;
+
+}
+
+#socialText {
+    padding-left: 40px;
+}
+
+.versionText, #socialText {
+    font-family: "Outfit Thin", sans-serif;
+    color: #EEEEEE;
+}
+
+#socialContainer > ul > li > a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+#miniPicture {
+    max-width: 100%;
+    min-width: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#lets-work-together {
+    font-family: "Outfit SemiBold", sans-serif;
+    font-size: clamp(2rem, 10vw, 6.5rem);
+    color: #EEEEEE;
+    width: 50vw;
+
+}
+
+#lets-work-together > span {
+    color: #7FC7D9;
+}
+
+#lets_work_together_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+#getInTouchButtonContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 300px;
+}
+
+#getInTouchButtonCus {
+    background-color: #74C0FC;
+    border: none;
+    border-radius: 55px;
+    width: 300px;
+    height: 90px;
+    font-family: "Outfit SemiBold", sans-serif;
+    font-size: xx-large;
+    color: #17181C;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+#getInTouchButtonCus:hover {
+    background-color: #ff253a;
+}
+
+#FooterArrow {
+    width: 100px;
+    padding-left: 56vw;
+    padding-top: 30px;
+}
+
+#FooterEmailCus {
+    font-family: "Outfit SemiBold", sans-serif;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#footerEmail_hr {
+    height: 5px;
+    width: 320px;
+    background-color: #7FC7D9;
+    border: none;
+}
+
+#FooterEmailContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.Intro {
+    color: #EEEEEE;
+    font-family: "Outfit Black", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: clamp(5rem, 20vw, 20rem);
+    line-height: 85vh;
+}
+
+.Intro > div:nth-child(3) {
+    text-decoration: underline;
+    text-decoration-color: #7FC7D9;
+
+}
+
+.Intro > div:nth-child(8) {
+    text-decoration: underline;
+    text-decoration-color: #7FC7D9;
+}
+
+.Intro > div:nth-child(9) {
+    text-decoration: underline;
+    text-decoration-color: #7FC7D9;
+}
+
+.Intro > div > span {
+    color: #7FC7D9;
+}
+
+.Intro > div > hr {
+    background-color: #7FC7D9;
+    height: 30px;
+    margin-top: clamp(-35vh, 50vh, -20vh);
+}
+
+#AMhr {
+    width: 30vw;
+}
+
+#ShenanHr {
+    width: 75vw;
+}
+
+#vindinuHr {
+    width: 70vw;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+#whatIDoContainer {
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+
+#what-i-do {
+    font-family: "Outfit Medium", sans-serif;
+    font-size: clamp(3rem, 5vw, 6rem);
+}
+
+#what-i-do > span {
+    color: #7FC7D9;
+}
+
+#paragraphIHelp {
+    font-family: "Outfit Light", sans-serif;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    margin-top: 5vh;
+}
+
+#ShenanGreyScaleImg {
+    width: 50%;
+    height: auto;
+}
+
+#alsoSection > hr {
+    height: 10px;
+    background-color: #EEEEEE;
+    border: none;
+    width: 90vw;
+}
+
+#alsoSection > div {
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#also {
+    color: #EEEEEE;
+    font-family: "Outfit Medium", sans-serif;
+    margin-left: 5vw;
+    font-size: 3rem;
+}
+
+#also > span {
+    color: #ff253a;
+}
+
+#IjseImage {
+    width: 30vw;
+    height: auto;
+}
+
+#ijseStudent {
+    color: #EEEEEE;
+    font-family: "Outfit Light", sans-serif;
+    font-size: clamp(1rem, 5vw, 6rem);
+}
+
+#ijseStudent > span {
+    color: #ff253a;
+}
+
+#and-my-skills-are {
+    width: 90vw;
+    margin-top: 20vh;
+    display: flex;
+}
+
+#and-my-skills-are > div {
+    color: #EEEEEE;
+    font-family: "Outfit Medium", sans-serif;
+    font-size: clamp(1rem, 10vw, 6rem);
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#DownArrowSkills {
+    width: 10%;
+    height: auto;
+    margin-top: 45vh;
+}
+
+#and-my-skills-are > div > span {
+    color: #7FC7D9;
+}
+
+#skillLogosContainer {
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skillLogosContainer > img {
+    width: 20vw;
+    margin: 5px;
+}
+
+#skillsSection > hr {
+    background-color: #EEEEEE;
+    height: 10px;
+    border: none;
+    width: 90vw;
+    margin-top: 20vh;
+}
+
+#SESection {
+    display: flex;
+    flex-direction: column;
+}
+
+#SE {
+    font-family: "Outfit Medium", sans-serif;
+    color: #EEEEEE;
+    font-size: clamp(1rem, 8vw, 6rem);
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+}
+
+#SE > span {
+    color: #7FC7D9;
+}
+
+#uiDesignImage {
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#downArrowSE {
+    width: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+
+}
+
+#SESection > hr {
+    width: 90vw;
+    height: 15px;
+    background-color: #EEEEEE;
+    border: none;
+}
+
+#whatIBring {
+    font-family: "Outfit Medium", sans-serif;
+    color: #EEEEEE;
+    font-size: clamp(1rem, 8vw, 7rem);
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+#whatIBring > span {
+    color: #7FC7D9;
+}
+
+#what-i-does {
+    font-family: "Outfit Medium", sans-serif;
+    color: #EEEEEE;
+    font-size: clamp(4rem, 20vw, 20rem);
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#what-i-does > span {
+    color: #7FC7D9;
+}
+
+#what-i-doesHr {
+    background-color: #7FC7D9;
+    height: 25px;
+    border: none;
+    width: 80vw;
+    margin-bottom: 20vh;
+}
+
+#whatIDoesSubContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ThreeImgHeadlines {
+    color: #EEEEEE;
+    font-family: "Outfit Medium", sans-serif;
+    font-size: xxx-large;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.ThreeImgHeadlines > span {
+    color: #7FC7D9;
+}
+
+.whatIDoesParagraphs {
+    font-family: "Outfit regular", sans-serif;
+    color: #EEEEEE;
+    font-size: xx-large;
+}
+
+.whatIDoesParagraphs > span {
+    color: #7FC7D9;
+}
+
+#happyFaceAndTreeContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+#treesBg {
+    width: 100vw;
+}
+
+#happyFace {
+    display: none;
+}

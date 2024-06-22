@@ -3,74 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Worked Projects">
-    <meta name="keywords" content="shenan vindinu portfolio personal designs web developer designer best portfolios game developer dev fullstack developer work gallery website photos">
+    <meta name="keywords"
+          content="shenan vindinu portfolio personal designs web developer designer best portfolios game developer dev fullstack developer work gallery website photos">
     <meta name="author" content="Shenan Vindinu">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+
 
     <title>Gallery</title>
+
+    <link href="../assets/favicon/Sh._Favicon.png" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/gallery/gallery_laptop.css">
+    <link rel="stylesheet" href="../assets/css/gallery/gallery_tab.css">
+    <link rel="stylesheet" href="../assets/css/hamburger_menu.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
+
+
 <body>
 
 <header>
 
-    <div>
-        <a href="../index.html">Shenan#</a>
+    <button data-aos="fade-down" id="hamburgerButton">
+        <img src="../assets/images/Hamburger%20Blue.png" alt="hamburger-image" title="hamburger button image"/>
+    </button>
+
+    <nav id="hamPage">
+        <button id="hamburgerButtonClose">
+            X
+        </button>
+
+        <ul>
+
+            <li>
+                <a href="../pages/about_page.html">About<span>!!</span></a>
+            </li>
+
+            <li>
+                <a href="../pages/work_page.html">Work<span>#</span></a>
+            </li>
+
+            <li>
+                <a href="../pages/contact_page.html">Contact<span>@</span></a>
+            </li>
+
+            <li>
+                <a href="../pages/gallery-page.html">Gallery<span>+</span></a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <div data-aos="fade-left">
+        <a href="../index.html">Sh<span>#</span></a>
     </div>
 
-    <a href="work_page.html">work</a>
-    <a href="about_page.html">about</a>
-    <a href="contact_page.html">contact</a>
+    <nav data-aos="fade-left">
+        <ul>
+
+            <li>
+                <a href="work_page.html">Work</a>
+            </li>
+
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="contact_page.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
 
 </header>
 
+<div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" id="Gallery">
+    Gallery<span>!</span>
+    <hr>
+</div>
 
-<img src="../assets/gallery/balazs-ketyi-LPWl2pEVGKc-unsplash.png" title="" alt="arrow-white" height="596" width="982"/>
-<img src="../assets/gallery/daniel-korpai-pKRNxEguRgM-unsplash.png" height="596" width="563"/>
-<img src="../assets/gallery/faizur-rehman-dJpupM4LiS4-unsplash 1.png" height="671" width="982"/>
-<img src="../assets/gallery/hal-gatewood-tZc3vjPCk-Q-unsplash.png" height="596" width="1656"/>
-<img src="../assets/gallery/kelly-sikkema-v9FQR4tbIq8-unsplash 1.png" height="828" width="1656"/>
-<img src="../assets/gallery/Nightingan 2.png" height="987" width="1668"/>
-<img src="../assets/gallery/yu-hosoi-ViR3a0rx18w-unsplash.png" height="671" width="563"/>
+<section>
+
+    <div id="Images">
+
+        <img data-aos="fade-right" src="../assets/gallery/shenan/IMG-20240504-WA0071.jpg" alt="shenan" title="Shenan photo"/>
+
+        <img data-aos="fade-right" src="../assets/gallery/shenan/IMG-20240504-WA0072.jpg" alt="shenan" title="Shenan photo"/>
+
+        <img data-aos="fade-left" src="../assets/gallery/shenan/IMG-20240609-WA0003.jpg" alt="shenan" title="Shenan photo"/>
+
+        <img data-aos="fade-left" src="../assets/gallery/shenan/IMG-20240609-WA0004.jpg" alt="shenan" title="Shenan photo"/>
+
+        <img data-aos="fade-left" src="../assets/gallery/shenan/IMG-20240609-WA0005.jpg" alt="shenan" title="Shenan photo"/>
+
+        <img data-aos="fade-left" src="../assets/gallery/shenan/Innovesta 2023.jpg" alt="shenan" title="Shenan photo"/>
+
+    </div>
 
 
+</section>
 
 <footer>
 
+
     <hr>
 
-    <div>
-        <img src="../assets/Mini%20Profile%20Pic.png" title="shenan vindinu mini profile pic"
-             alt="shenan-mini-profile-pic" height="64" width="64"/>
-        <h3 id="let's-work-together!">Let's Work Together!</h3>
+    <div data-aos="zoom-in-up" id="lets_work_together_container">
+        <img id="miniPicture" src="../assets/images/Mini%20Profile%20Pic.png" title="shenan vindinu mini profile pic"
+             alt="shenan-mini-profile-pic"/>
+        <h3 id="lets-work-together">Let's Work <span>together!</span></h3>
     </div>
 
-    <a href="pages/contact_page.html">
-        <button>
-            <h4 id="Get-in-touch">Get in touch</h4>
-        </button>
-    </a>
-
-    <div>
-        <a href="mailto: #shenanvindinu@gmail.com">shenanvindinu@gmail.com</a>
+    <div id="getInTouchButtonContainer">
+        <a href="../pages/contact_page.html">
+            <button id="getInTouchButtonCus" class="button">
+                Get In Touch
+            </button>
+        </a>
     </div>
 
-    <div>
 
-        <img src="../assets/Footer%20Arrow.png" title="mail me arrow"
-             alt="mail-me-arrow" height="50" width="75"/>
+    <img id="FooterArrow" src="../assets/images/Footer%20Arrow.png" title="mail me arrow"
+         alt="mail-me-arrow"/>
 
 
-        <p>version</p>
-        <p>@2023Edition</p>
+    <div data-aos="fade-up"
+         data-aos-duration="1000" id="FooterEmailContainer">
+        <a id="FooterEmailCus" href="mailto: #shenanvindinu@gmail.com">shenanvindinu@gmail.com</a>
+        <hr id="footerEmail_hr">
+    </div>
 
-        <p>Social</p>
-        <a href="https://www.instagram.com/shenan_vindinu">Instagram</a>
-        <a href="https://www.linkedin.com/in/shenanvindinu">LinkedIn</a>
-        <a href="https://www.behance.net/shenanvindinu">Behance</a>
+    <div id="footerBottomSection">
+
+        <div id="versionTextContainer">
+            <p class="versionText">version</p>
+            <p class="versionText">@2024Edition</p>
+        </div>
+
+
+        <nav id="socialContainer">
+            <p id="socialText">Social</p>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/shenan_vindinu">Instagram</a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/shenanvindinu">LinkedIn</a>
+                </li>
+
+                <li>
+                    <a href="https://www.behance.net/shenanvindinu">Behance</a>
+                </li>
+            </ul>
+        </nav>
 
     </div>
 
 </footer>
 
+<script src="../assets/lib/jquery-3.7.1.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="../assets/Js/HamburgerMenu.js"></script>
 </body>
 </html>

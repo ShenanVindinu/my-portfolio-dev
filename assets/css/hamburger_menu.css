@@ -1,0 +1,84 @@
+#hamPage {
+    background-color: #17181C;
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    margin-top: 87vh;
+    z-index: 1;
+    display: none;
+
+}
+
+#hamburgerButtonClose {
+    background-color: #17181C;
+    border: none;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    font-family: "Outfit Black", sans-serif;
+    color: white;
+    font-size: 4rem;
+    transition: color 1s;
+}
+
+#hamburgerButtonClose:hover {
+    color: #ff253a;
+}
+
+#hamPage > ul {
+    list-style: none;
+    font-family: "Outfit regular", sans-serif;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#hamPage > ul > li > a {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: #7FC7D9;
+    color: #EEEEEE;
+    font-size: xxx-large;
+}
+
+#hamPage > ul > li > a:hover {
+    color: #D9D9D9;
+}
+
+#hamPage > ul > li {
+    margin-top: 5vh;
+}
+
+#hamPage > ul > li > a > span {
+    color: #7FC7D9;
+}
+
+@media (max-width: 768px) {
+
+    #hamPage {
+        width: 100vw;
+    }
+
+    #hamPage > ul > li > hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hamPage > ul > li {
+        text-align: center;
+    }
+
+    #hamPage {
+        position: absolute;
+        width: 100vw;
+    }
+
+    #hamPage > ul > li > hr {
+        margin-right: 80vw;
+        width: 50vw;
+    }
+
+    #hamPage > ul > li {
+        text-align: left;
+    }
+
+}
